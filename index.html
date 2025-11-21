@@ -1,0 +1,459 @@
+<!DOCTYPE html>
+
+<html lang="pt-BR">
+
+<head>
+  <meta charset="utf-8" />
+  <meta content="width=device-width, initial-scale=1.0" name="viewport" />
+  <!-- Cabeçalhos de segurança básicos -->
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta http-equiv="X-Content-Type-Options" content="nosniff" />
+  <meta http-equiv="X-XSS-Protection" content="1; mode=block" />
+  <meta name="referrer" content="strict-origin-when-cross-origin" />
+  <!-- Política de Segurança de Conteúdo (Content Security Policy): restringe fontes externas a domínios específicos -->
+  <meta http-equiv="Content-Security-Policy"
+    content="default-src 'self'; img-src 'self' data: https://*; script-src 'self' 'unsafe-inline' https://cdnjs.cloudflare.com https://vlibras.gov.br https://kit.fontawesome.com; style-src 'self' 'unsafe-inline' https://cdnjs.cloudflare.com https://fonts.googleapis.com; font-src 'self' https://fonts.gstatic.com https://cdnjs.cloudflare.com; frame-src https://*; connect-src 'self' https://vlibras.gov.br https://*;" />
+  <title>Portal IBS Sete Lagoas</title>
+  <link crossorigin="" href="https://fonts.gstatic.com" rel="preconnect" />
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800;900&amp;display=swap"
+    rel="stylesheet" />
+  <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" rel="stylesheet" />
+
+  <link href="assets/css/estilos.css" rel="stylesheet" />
+</head>
+
+<body>
+  <!-- ===== Header ===== -->
+  <header class="header">
+    <div class="header-top">
+      <div class="logo-area">
+        <a href="https://www.setelagoas.mg.gov.br/" target="_blank" rel="noopener noreferrer"
+          title="Site oficial da Prefeitura">
+          <img alt="Prefeitura de Sete Lagoas" src="assets/img/logo-prefeitura.png" />
+        </a>
+        <div class="logo-text">
+          <h1>IBS-Sete Lagoas</h1>
+          <p>Reforma Tributária do Consumo</p>
+        </div>
+      </div>
+      <div class="header-top-info">
+        <div class="contact-phone">
+          <i class="fa-solid fa-phone"></i><span>(31) 93301-0753</span>
+        </div>
+        <div class="social-icons">
+          <a aria-label="Instagram" class="social-icon bt_instagram"
+            href="https://www.instagram.com/prefeituradesetelagoas/?hl=pt-br" target="_blank"
+            rel="noopener noreferrer"><i class="fab fa-instagram"></i></a>
+          <a aria-label="Facebook" class="social-icon bt_facebook"
+            href="https://www.facebook.com/prefeituramunicipaldesetelagoas" target="_blank" rel="noopener noreferrer"><i
+              class="fab fa-facebook-f"></i></a>
+          <a aria-label="YouTube" class="social-icon bt_youtube"
+            href="https://www.youtube.com/@PrefeituradeSeteLagoasMG" target="_blank" rel="noopener noreferrer"><i
+              class="fab fa-youtube"></i></a>
+        </div>
+      </div>
+    </div>
+    <nav class="nav-bar"></nav>
+  </header>
+  <!-- Cards principais -->
+  <section class="cards-grid">
+    <!-- 1ª linha: Emitir NFS-e, Emitir Guia, Consultar NFS-e -->
+    <article class="card" onclick="location.href='emitir-nfse.html'">
+      <span class="nfse-label">EMISSOR NACIONAL</span>
+      <img alt="Emitir NFS-e" class="icon" src="assets/img/icones/nfse-emissao.png" />
+      <h3>Emitir NFS-e nacional</h3>
+      <p>
+        Acesse o emissor nacional e emita sua Nota Fiscal de Serviço online.
+        Obrigatório para todas as empresas e profissionais de Sete Lagoas.
+      </p>
+    </article>
+
+    <article onclick="location.href='https://nfse.setelagoas.mg.gov.br/'" class="card">
+      <span class="ticket ticket--comunicado">EMISSÃO DA GUIA</span>
+      <img alt="Emitir Guia de Recolhimento" class="icon" src="assets/img/icones/guia-issqn-ibs.png" />
+      <h3>Emitir Guia do ISSQN | IBS-MUNICIPAL</h3>
+      <p>
+        A guia de recolhimento do ISSQN em 2026
+        <strong>continua sendo emitida pela Prefeitura de Sete Lagoas</strong>. Consulte seus débitos, gere a guia e
+        emita a 2ª via para pagamento.
+      </p>
+    </article>
+
+    <article class="card" onclick="location.href='https://www.nfse.gov.br/consultapublica'">
+      <span class="ticket ticket--comunicado"> CONSULTA PÚBLICA </span>
+      <img alt="Consultar NFS-e Nacional" class="icon" src="assets/img/icones/consulta-nfse.png" />
+      <h3>Consultar NFS-e Nacional</h3>
+      <p>
+        Acesse o portal nacional para conferir a autenticidade da NFS-e. Tenha
+        em mãos a <strong>chave de acesso</strong>, CPF/CNPJ do emitente,
+        dados da DPS e o município de emissão, informados no
+        <strong>Documento Auxiliar da NFS-e (DANFSe)</strong>. Para consultar
+        todas as notas emitidas em seu nome, clicar no link
+        <a href="https://www.nfse.gov.br/EmissorNacional/Login?ReturnUrl=%2FEmissorNacional" target="_blank"
+          rel="noopener noreferrer" onclick="event.stopPropagation();">
+          <strong>Portal de Gestão NFS-e</strong> </a>, usuário e senha ou certificado digital.
+      </p>
+    </article>
+    <!-- 2ª linha: CGIBS, Legislação, Comunicado da Fazenda -->
+    <article class="card" onclick="location.href='https://cgibs.gov.br/'">
+      <span class="new-label">NOVO</span>
+      <img alt="Comitê Gestor do IBS" class="icon" src="assets/img/icones/cgibs.png" />
+      <h3>Comitê Gestor IBS - CGIBS</h3>
+      <p>
+        Conheça o Comitê Gestor do Imposto sobre Bens e Serviços. Veja
+        composição, atribuições e decisões. O CGIBS tem competência exclusiva
+        para responder consultas do IBS.
+      </p>
+    </article>
+
+    <article class="card" onclick="location.href='legislacao.html'">
+      <img alt="Legislação" class="icon" src="assets/img/icones/balanca-novo.png" />
+      <h3>Legislação</h3>
+      <p>
+        Acesse leis, decretos e normas municipais da Reforma Tributária do
+        Consumo. Conteúdo organizado para consulta rápida. Incluímos
+        legislação Federal, os regulamentos e normativos do CGIBS.
+      </p>
+    </article>
+
+    <article class="card" onclick="location.href='comunicado.html'">
+      <span class="ticket ticket--comunicado">NOVO</span>
+      <img alt="Notícias da Fazenda" class="icon" src="assets/img/icones/fazenda.png" />
+      <h3>Comunicado da Fazenda</h3>
+      <p>
+        Avisos da Secretaria Municipal da Fazenda sobre a NFS-e, as alíquotas
+        e os procedimentos fiscais. Fique por dentro de prazos, mudanças e
+        orientações.
+      </p>
+    </article>
+
+    <!-- 3ª linha: Guia de Migração, Sobre IBS, Biblioteca -->
+    <article class="card" onclick="location.href='nfse.html'">
+      <img alt="Guia de Migração NFS-e" class="icon" src="assets/img/icones/nfse-guia-migracao.png" />
+      <h3>Guia Migração NFS-e</h3>
+      <p>
+        Passo a passo para migrar para o emissor nacional da NFS-e. Confira
+        como se cadastrar, configurar e começar a emitir.
+      </p>
+    </article>
+
+    <article class="card" onclick="location.href='ibs.html'">
+      <img alt="Sobre o IBS" class="icon" src="assets/img/icones/prefeitura.png" />
+      <h3>Sobre o IBS</h3>
+      <p>
+        Entenda o que é o IBS, como ele substitui os antigos impostos e o que
+        muda no dia a dia do consumidor e das empresas.
+      </p>
+    </article>
+
+    <article class="card" onclick="location.href='material.html'">
+      <img alt="Biblioteca IBS-CBS" class="icon" src="assets/img/icones/biblioteca.png" />
+      <h3>Biblioteca do IBS-CBS</h3>
+      <p>
+        Manuais, e-books, notas técnicas e materiais de apoio sobre IBS e CBS.
+        Conteúdo voltado aos cidadãos.
+      </p>
+    </article>
+
+    <article class="card" onclick="location.href='videos.html'">
+      <img alt="Vídeos" class="icon" src="assets/img/icones/videos.png" />
+      <h3>Tutoriais em Vídeo da NFS-e Nacional</h3>
+      <p>
+        Passo a passo em vídeo para cadastro e emissão da NFS-e Nacional pela
+        web ou pelo aplicativo oficial.
+      </p>
+    </article>
+
+    <article class="card"
+      onclick="location.href='https://piloto-cbs.tributos.gov.br/servico/calculadora-consumo/calculadora'">
+      <img alt="Calculadora IBS-CBS" class="icon" src="assets/img/icones/calculadora.png" />
+      <h3>Calculadora IBS-CBS da Receita Federal</h3>
+      <p>
+        Calcule os impostos de produtos e serviços, conforme a legislação da
+        Reforma Tributária.
+      </p>
+    </article>
+
+    <article class="card" onclick="location.href='https://datanalytics.worldbank.org/simvat/'">
+      <img alt="Simulador Banco Mundial" class="icon" src="assets/img/icones/bw.png" />
+      <h3>Banco Mundial – Simulador de Alíquota</h3>
+      <p>
+        Ferramenta SimVAT 3.3, do Banco Mundial, que estima o efeito da
+        Reforma Tributária do consumo na renda das famílias brasileiras.
+      </p>
+    </article>
+  </section>
+
+  <!-- Recursos e Informações -->
+  <section class="secao-recursos" id="sobre">
+    <h2>Recursos e Informações</h2>
+    <div class="cards-grid">
+      <article class="card" onclick="location.href='faq.html'">
+        <img alt="Dúvidas Frequentes" class="icon" src="assets/img/icones/faq.png" />
+        <h3>Dúvidas Frequentes</h3>
+        <p>
+          Respostas às principais perguntas sobre NFS-e, IBS e Reforma
+          Tributária do consumo.
+        </p>
+      </article>
+      <article class="card card--quadro-video"
+        onclick="window.open('https://www.youtube.com/watch?v=1IZgJ_jKCSo','_blank')">
+        <div class="quadro-moldura">
+          <img src="assets/img/bg-desenho-carvao.png" alt="Desenho artístico de Sete Lagoas visto da Lagoa Paulino" />
+        </div>
+
+        <h3>Vista para a Lagoa Paulino</h3>
+        <p>
+          <strong>Clique para conhecer a cidade</strong>.
+        </p>
+      </article>
+    </div>
+  </section>
+  <!-- Cronograma (duas visões em abas) -->
+  <section aria-labelledby="ttl-crono" class="timeline-section" id="cronograma">
+    <h2 id="ttl-crono">Cronograma de Implementação Nacional</h2>
+    <p class="timeline-intro">
+      <em>
+        Use as abas abaixo para alternar entre as duas visões do cronograma:
+        <strong>Brasil – visão nacional</strong> e
+        <strong>O que muda para você em Sete Lagoas</strong>.
+      </em>
+    </p>
+
+    <!-- Abas -->
+    <div class="timeline-tabs" role="tablist" aria-label="Visões do cronograma">
+      <button type="button" class="timeline-tab is-active" id="tab-nacional" role="tab" aria-selected="true"
+        aria-controls="cronograma-nacional" data-target="cronograma-nacional">
+        Brasil - visão nacional
+      </button>
+      <button type="button" class="timeline-tab" id="tab-contribuinte" role="tab" aria-selected="false"
+        aria-controls="cronograma-contribuinte" data-target="cronograma-contribuinte">
+        O que muda para você em Sete Lagoas
+      </button>
+    </div>
+
+    <!-- Painel 1: timeline técnica nacional (VERTICAL) -->
+    <div id="cronograma-nacional" class="timeline-panel is-active" role="tabpanel" aria-labelledby="tab-nacional">
+      <div class="timeline">
+        <div class="timeline-pointer" id="timelinePointer">
+          <i class="fa-solid fa-location-dot"></i> ESTAMOS AQUI
+        </div>
+
+        <div class="timeline-item" data-year="2023">
+          <div class="timeline-content">
+            <div class="timeline-year">2023</div>
+            <div class="timeline-text">
+              Promulgação da Emenda Constitucional nº 132/2023, que cria o
+              novo modelo de tributação do consumo (CBS, IBS e Imposto
+              Seletivo) e define as regras gerais de transição.
+            </div>
+          </div>
+          <div class="timeline-dot"></div>
+        </div>
+
+        <div class="timeline-item" data-year="2024">
+          <div class="timeline-content">
+            <div class="timeline-year">2024 – 2025</div>
+            <div class="timeline-text">
+              Fase de regulamentação da reforma: aprovação das Leis
+              Complementares (como a LC nº 214/2025, que institui a CBS, o IBS
+              e o Imposto Seletivo), criação e estruturação do Comitê Gestor
+              do IBS (CG-IBS) e desenvolvimento dos novos sistemas nacionais.
+            </div>
+          </div>
+          <div class="timeline-dot"></div>
+        </div>
+
+        <div class="timeline-item" data-year="2026">
+          <div class="timeline-content">
+            <div class="timeline-year">2026</div>
+            <div class="timeline-text">
+              Ano de teste (calibragem), sem aumento de carga global:
+              <ul>
+                <li>Alíquota-teste de 0,9% para a CBS.</li>
+                <li>Alíquota-teste de 0,1% para o IBS.</li>
+                <li>
+                  Valores pagos compensados com PIS/Cofins e outros tributos
+                  federais.
+                </li>
+                <li>
+                  Isenção das alíquotas-teste para quem cumprir corretamente
+                  as novas obrigações acessórias.
+                </li>
+              </ul>
+            </div>
+          </div>
+          <div class="timeline-dot"></div>
+        </div>
+
+        <div class="timeline-item" data-year="2027">
+          <div class="timeline-content">
+            <div class="timeline-year">2027 – 2028</div>
+            <div class="timeline-text">
+              <ul>
+                <li>
+                  Entrada em vigor das alíquotas cheias da CBS e do IBS.
+                </li>
+                <li>Extinção gradativa de PIS e Cofins.</li>
+                <li>
+                  Redução a zero da alíquota do IPI para a maioria dos
+                  produtos, preservada a Zona Franca de Manaus.
+                </li>
+                <li>
+                  Instituição e início de cobrança do Imposto Seletivo (IS)
+                  sobre bens e serviços prejudiciais à saúde e ao meio
+                  ambiente.
+                </li>
+              </ul>
+            </div>
+          </div>
+          <div class="timeline-dot"></div>
+        </div>
+
+        <div class="timeline-item" data-year="2029">
+          <div class="timeline-content">
+            <div class="timeline-year">2029 – 2032</div>
+            <div class="timeline-text">
+              Transição do ICMS/ISS para o IBS nas operações com bens e
+              serviços:
+              <ul>
+                <li>2029: 10% IBS / 90% ICMS + ISS.</li>
+                <li>2030: 20% IBS / 80% ICMS + ISS.</li>
+                <li>2031: 30% IBS / 70% ICMS + ISS.</li>
+                <li>2032: 40% IBS / 60% ICMS + ISS.</li>
+              </ul>
+            </div>
+          </div>
+          <div class="timeline-dot"></div>
+        </div>
+
+        <div class="timeline-item" data-year="2033">
+          <div class="timeline-content">
+            <div class="timeline-year">2033</div>
+            <div class="timeline-text">
+              Vigência integral do novo modelo tributário sobre o consumo:
+              extinção completa do ICMS e do ISS, com o sistema passando a
+              operar com CBS, IBS e Imposto Seletivo.
+              <hr />
+              Cota-parte municipal do IBS (25% da arrecadação pertencente ao
+              Estado) distribuída entre os municípios com base em:
+              <ul>
+                <li>80% na proporção da população municipal.</li>
+                <li>
+                  10% por indicadores de melhoria da aprendizagem e de
+                  equidade na educação básica.
+                </li>
+                <li>5% por indicadores de preservação ambiental.</li>
+                <li>
+                  5% distribuídos em partes iguais entre todos os municípios
+                  do Estado.
+                </li>
+              </ul>
+            </div>
+          </div>
+          <div class="timeline-dot"></div>
+        </div>
+
+        <div class="timeline-item" data-year="2077">
+          <div class="timeline-content">
+            <div class="timeline-year">2077</div>
+            <div class="timeline-text">
+              Conclusão da <strong>transição federativa</strong> na
+              distribuição da receita do IBS entre Estados e Municípios
+              (período de cerca de 50 anos iniciado em 2029), com consolidação
+              definitiva dos novos critérios de partilha.
+            </div>
+          </div>
+          <div class="timeline-dot"></div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Painel 2: timeline cidadã (HORIZONTAL) -->
+    <div id="cronograma-contribuinte" class="timeline-panel" role="tabpanel" aria-labelledby="tab-contribuinte" hidden>
+      <p class="timeline-intro">
+        Veja, fase a fase, como a Reforma Tributária do consumo impacta
+        cidadãos, profissionais, MEIs e empresas em Sete Lagoas.
+      </p>
+
+      <div class="htimeline" aria-label="Linha do tempo para o contribuinte">
+        <!-- 2023–2025 -->
+        <article class="htimeline-item" data-start="2023" data-end="2025">
+          <div class="htimeline-year">2023–2025</div>
+          <div class="htimeline-title">Reforma aprovada e regulamentada</div>
+          <p class="htimeline-text">
+            Aprovada a EC 132/2023 e as leis complementares da reforma. Para o
+            cidadão, impostos no consumo seguem praticamente iguais: é a fase
+            em que governos, empresas e sistemas se preparam.
+          </p>
+        </article>
+
+        <!-- 2026 -->
+        <article class="htimeline-item" data-start="2026" data-end="2026">
+          <div class="htimeline-year">2026</div>
+          <div class="htimeline-title">Ano-teste da CBS e do IBS</div>
+          <p class="htimeline-text">
+            Notas fiscais passam a exibir CBS (0,9%) e IBS (0,1%) em fase de
+            teste, sem aumento de carga global. Em Sete Lagoas, empresas e
+            profissionais migram para a NFS-e nacional; o cidadão ganha mais
+            transparência na nota.
+          </p>
+        </article>
+
+        <!-- 2027–2028 -->
+        <article class="htimeline-item" data-start="2027" data-end="2028">
+          <div class="htimeline-year">2027–2028</div>
+          <div class="htimeline-title">Novo imposto no dia a dia</div>
+          <p class="htimeline-text">
+            CBS substitui PIS/Cofins e começa a cobrança do Imposto Seletivo
+            sobre produtos nocivos à saúde e ao meio ambiente. Programas de
+            devolução (cashback) podem beneficiar famílias de baixa renda.
+          </p>
+        </article>
+
+        <!-- 2029–2032 -->
+        <article class="htimeline-item" data-start="2029" data-end="2032">
+          <div class="htimeline-year">2029–2032</div>
+          <div class="htimeline-title">Transição ICMS/ISS → IBS</div>
+          <p class="htimeline-text">
+            Tributos estaduais e municipais sobre consumo migram gradualmente
+            para o IBS. As regras ficam mais padronizadas entre estados e
+            municípios, reduzindo distorções e insegurança para empresas e
+            consumidores.
+          </p>
+        </article>
+
+        <!-- 2033 em diante -->
+        <article class="htimeline-item" data-start="2033" data-end="2077">
+          <div class="htimeline-year">2033 em diante</div>
+          <div class="htimeline-title">Novo modelo consolidado</div>
+          <p class="htimeline-text">
+            ICMS e ISS são totalmente substituídos por IBS, enquanto CBS e
+            Imposto Seletivo seguem vigentes. Para Sete Lagoas, a arrecadação
+            passa a seguir o princípio do destino, fortalecendo cidades onde o
+            consumo acontece e simplificando a vida de empresas e
+            consumidores.
+          </p>
+        </article>
+      </div>
+    </div>
+  </section>
+
+  <!-- ===== Rodapé Vidro ===== -->
+  <footer class="footer">
+    <div class="footer-container">
+      <p>
+        <strong>Endereço:</strong> Praça Barão do Rio Branco, 16 — Centro,
+        Sete Lagoas/MG • CEP 35700-029  •  <strong>Telefone:</strong> (31)
+        93301-0753  •  <strong>Órgão:</strong> Secretaria Municipal da Fazenda
+      </p>
+    </div>
+    <div class="footer-bottom">
+      © 2025 Prefeitura de Sete Lagoas — Todos os direitos reservados.
+    </div>
+  </footer>
+
+  <script src="assets/js/script.js"></script>
+</body>
+
+</html>

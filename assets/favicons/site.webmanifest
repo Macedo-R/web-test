@@ -1,0 +1,1 @@
+{"name": "Portal IBS Sete Lagoas", "short_name": "Portal IBS", "icons": [{"src": "assets/favicons/favicon-32.png", "sizes": "32x32", "type": "image/png"}, {"src": "assets/favicons/favicon-16.png", "sizes": "16x16", "type": "image/png"}], "start_url": "./index.html", "display": "standalone", "background_color": "#f5f7fb", "theme_color": "#2b5f7f"}
