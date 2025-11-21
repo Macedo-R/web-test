@@ -4869,7 +4869,7 @@ div[vw].enabled {
   margin: 4px auto 16px;
   border-radius: 32px;
   /* cantos arredondados tipo Apple */
-  border: 16px solid #ffffff;
+  border: 20px solid #ffffff;
   /* moldura clara ao redor */
   overflow: hidden;
   box-shadow: 0 18px 40px rgba(252, 252, 255, 0.25);
