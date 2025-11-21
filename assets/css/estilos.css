@@ -1667,9 +1667,9 @@ body {
 
 .nfse-label {
   position: absolute;
-  top: 12px;
-  left: 12px;
-  padding: 6px 10px;
+  top: 10px;
+  left: 10px;
+  padding: 4px 8px;
   border-radius: 999px;
   background: linear-gradient(180deg, #ffb351, #ff9800);
   color: #2a1600;
@@ -1680,14 +1680,14 @@ body {
 
 .new-label {
   position: absolute;
-  top: 14px;
-  left: 14px;
-  padding: 6px 10px;
+  top: 10px;
+  left: 10px;
+  padding: 4px 8px;
   border-radius: 999px;
   background: linear-gradient(180deg, #0a0065, #12006d);
   color: #fff;
   font-weight: 900;
-  font-size: 11px;
+  font-size: 10px;
   letter-spacing: 0.6px;
 }
 
@@ -4897,4 +4897,47 @@ div[vw].enabled {
   font-size: 0.95rem;
   color: #4b5563;
   text-align: center;
+}
+
+/* Fix Mobile Layouts - Appended */
+
+/* 1. Service Cards Grid (Mobile) */
+@media (max-width: 768px) {
+  .cards-grid {
+    grid-template-columns: 1fr 1fr !important;
+    gap: 10px !important;
+  }
+
+  .card {
+    padding: 15px 10px !important;
+  }
+
+  .card h3 {
+    font-size: 15px !important;
+  }
+
+  .card img.icon {
+    width: 100% !important;
+    max-width: 120px !important;
+    height: auto !important;
+    margin-bottom: 8px !important;
+  }
+}
+
+/* 2. Timeline Pointer (Mobile) */
+@media (max-width: 900px) {
+  .timeline-pointer {
+    left: 56px !important;
+    transform: none !important;
+    margin-top: -15px !important;
+  }
+
+  .timeline-pointer::after {
+    top: 50% !important;
+    left: -16px !important;
+    transform: translateY(-50%) !important;
+    border-color: transparent !important;
+    border-right-color: var(--brand) !important;
+    border-top-color: transparent !important;
+  }
 }
