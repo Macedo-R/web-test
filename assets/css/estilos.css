@@ -54,6 +54,40 @@ body {
   background-position: center 140px;
   /* ajusta a altura do desenho */
   background-size: 1600px auto;
+
+  color: var(--text);
+  line-height: 1.6;
+  scroll-behavior: smooth;
+}
+
+.container {
+  max-width: 1200px;
+  margin: auto;
+  padding: 28px 20px;
+}
+
+@media (max-width: 768px) {
+  body {
+    background-position: center 220px;
+    background-size: 1200px auto;
+  }
+}
+
+/* Header */
+.header {
+  position: sticky;
+  top: 0;
+  z-index: 50;
+  background: linear-gradient(180deg, var(--panel), var(--panel));
+  backdrop-filter: saturate(180%) blur(10px);
+  -webkit-backdrop-filter: saturate(180%) blur(10px);
+  border-bottom: 1px solid var(--brd);
+  box-shadow: var(--glass-shadow);
+}
+
+.header-top {
+  max-width: 1200px;
+  margin: auto;
   padding: 12px 20px;
   display: flex;
   align-items: center;
@@ -1959,6 +1993,50 @@ body {
 .footer-bottom {
   border-top: 1px solid rgba(0, 0, 0, 0.08);
   text-align: center;
+  padding: 14px 10px;
+  font-size: 14px;
+}
+
+/* ===== Responsivo ===== */
+@media (max-width: 900px) {
+  .timeline::before {
+    left: 24px;
+    transform: none;
+  }
+
+  .timeline-item {
+    width: 100%;
+    left: 0;
+    padding-left: 56px;
+    padding-right: 10px;
+  }
+
+  .timeline-content,
+  .timeline-item:nth-child(odd) .timeline-content {
+    text-align: left;
+  }
+
+  .timeline-content::after,
+  .timeline-item:nth-child(odd) .timeline-content::after {
+    left: -12px;
+    right: auto;
+    border-right-color: rgba(255, 255, 255, 0.68);
+    border-left-color: transparent;
+  }
+
+  .timeline-dot {
+    left: 24px;
+  }
+
+  .timeline-pointer {
+    left: 56px;
+    transform: none;
+  }
+}
+
+/* legislacao.html */
+* {
+  box-sizing: border-box;
   margin: 0;
   padding: 0;
 }
