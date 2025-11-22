@@ -4841,17 +4841,23 @@ div[vw].enabled {
 }
 
 @media (max-width: 767px) {
-  .timeline-tabs {
-    padding: 0 8px;
+  .htimeline {
+    display: flex;
+    justify-content: flex-start;
+    /* VITAL: Aligns items to the left so the first card is visible */
+    overflow-x: auto;
+    /* Ensures scrolling works */
+    padding-left: 24px;
+    /* Adds "breathing room" before the first card */
+    padding-right: 24px;
+    /* Adds space after the last card */
+    gap: 16px;
+    /* Consistent gap between cards */
   }
 
-  .timeline-tab {
-    flex: 1 1 auto;
-    text-align: center;
-  }
-
-  .htimeline-item {
-    flex: 0 0 230px;
+  /* Ensure the decorative line doesn't look weird on mobile */
+  .htimeline::before {
+    display: none;
   }
 }
 
