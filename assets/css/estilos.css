@@ -3685,11 +3685,6 @@ body {
 .nfse-main-cta-link i {
   color: var(--vermelho-principal) !important;
 }
-
-/* LIMPEZA CSS: Bloco de acordeão original (linhas 352-403) removido.
-      O bloco abaixo (originalmente 405-479) é o estilo correto e adaptado
-      ao novo design "branco/sólido" dos cards.
-    */
 /* Acordeão (FAQ/Legislação) (ESTILO  PARA SÓLIDO/BRANCO) */
 .nfse-accordion-section {
   margin-top: 46px;
@@ -4842,33 +4837,16 @@ div[vw].enabled {
 @media (max-width: 767px) {
   .htimeline {
     display: flex;
-<<<<<<< HEAD
-    justify-content: flex-start;
-    /* VITAL: Aligns items to the left so the first card is visible */
-    overflow-x: auto;
-    /* Ensures scrolling works */
-    padding-left: 24px;
-    /* Adds "breathing room" before the first card */
-    padding-right: 24px;
-    /* Adds space after the last card */
-    gap: 16px;
-    /* Consistent gap between cards */
-=======
     justify-content: flex-start; /* VITAL: Aligns items to the left so the first card is visible */
     overflow-x: auto;            /* Ensures scrolling works */
     padding-left: 24px;          /* Adds "breathing room" before the first card */
     padding-right: 24px;         /* Adds space after the last card */
     gap: 16px;                   /* Consistent gap between cards */
->>>>>>> 9b9ef91a769afc90d7dd37bb9ab01278369642df
   }
 
   /* Ensure the decorative line doesn't look weird on mobile */
   .htimeline::before {
-<<<<<<< HEAD
-    display: none;
-=======
     display: none; 
->>>>>>> 9b9ef91a769afc90d7dd37bb9ab01278369642df
   }
 }
 /* Card especial: quadro quadrado com o desenho dentro */
