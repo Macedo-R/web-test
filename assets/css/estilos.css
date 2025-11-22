@@ -4839,10 +4839,10 @@ div[vw].enabled {
   border-width: 3px;
   box-shadow: 0 0 0 4px rgba(251, 113, 133, 0.25);
 }
-
 @media (max-width: 767px) {
   .htimeline {
     display: flex;
+<<<<<<< HEAD
     justify-content: flex-start;
     /* VITAL: Aligns items to the left so the first card is visible */
     overflow-x: auto;
@@ -4853,14 +4853,24 @@ div[vw].enabled {
     /* Adds space after the last card */
     gap: 16px;
     /* Consistent gap between cards */
+=======
+    justify-content: flex-start; /* VITAL: Aligns items to the left so the first card is visible */
+    overflow-x: auto;            /* Ensures scrolling works */
+    padding-left: 24px;          /* Adds "breathing room" before the first card */
+    padding-right: 24px;         /* Adds space after the last card */
+    gap: 16px;                   /* Consistent gap between cards */
+>>>>>>> 9b9ef91a769afc90d7dd37bb9ab01278369642df
   }
 
   /* Ensure the decorative line doesn't look weird on mobile */
   .htimeline::before {
+<<<<<<< HEAD
     display: none;
+=======
+    display: none; 
+>>>>>>> 9b9ef91a769afc90d7dd37bb9ab01278369642df
   }
 }
-
 /* Card especial: quadro quadrado com o desenho dentro */
 .card--quadro-video {
   cursor: pointer;
