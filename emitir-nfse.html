@@ -1,506 +1,470 @@
 <!DOCTYPE html>
 <html lang="pt-BR">
-  <head>
-    <meta charset="utf-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <!-- Cabeçalhos de segurança básicos -->
-    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-    <meta http-equiv="X-Content-Type-Options" content="nosniff" />
-    <meta http-equiv="X-XSS-Protection" content="1; mode=block" />
-    <meta name="referrer" content="strict-origin-when-cross-origin" />
-    <!-- Política de Segurança de Conteúdo (CSP) -->
-    <meta
-      http-equiv="Content-Security-Policy"
-      content="default-src 'self'; img-src 'self' data: https://*; script-src 'self' 'unsafe-inline' https://cdnjs.cloudflare.com https://vlibras.gov.br https://kit.fontawesome.com; style-src 'self' 'unsafe-inline' https://cdnjs.cloudflare.com https://fonts.googleapis.com; font-src 'self' https://fonts.gstatic.com https://cdnjs.cloudflare.com; frame-src https://*; connect-src 'self' https://vlibras.gov.br https://*;"
-    />
-    <title>NFS-e Nacional - Portal IBS Sete Lagoas</title>
-    <link crossorigin="" href="https://fonts.gstatic.com" rel="preconnect" />
-    <link
-      href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800;900&amp;display=swap"
-      rel="stylesheet"
-    />
-    <link
-      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css"
-      rel="stylesheet"
-    />
 
-    <link href="assets/css/estilos.css" rel="stylesheet" />
-  </head>
-  <body>
-    <!-- CABEÇALHO PADRÃO -->
-    <header class="header">
-      <div class="header-top">
-        <div class="logo-area">
-          <a href="index.html" title="Voltar à página inicial">
-            <img
-              alt="Voltar à página inicial"
-              src="assets/img/logo-prefeitura.png"
-            />
-          </a>
-          <div class="logo-text">
-            <h1>IBS-Sete Lagoas</h1>
-            <p>Reforma Tributária do Consumo</p>
-          </div>
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <!-- Cabeçalhos de segurança básicos -->
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta http-equiv="X-Content-Type-Options" content="nosniff" />
+  <meta http-equiv="X-XSS-Protection" content="1; mode=block" />
+  <meta name="referrer" content="strict-origin-when-cross-origin" />
+  <!-- Política de Segurança de Conteúdo (CSP) -->
+  <meta http-equiv="Content-Security-Policy"
+    content="default-src 'self'; img-src 'self' data: https://*; script-src 'self' 'unsafe-inline' https://cdnjs.cloudflare.com https://vlibras.gov.br https://kit.fontawesome.com; style-src 'self' 'unsafe-inline' https://cdnjs.cloudflare.com https://fonts.googleapis.com; font-src 'self' https://fonts.gstatic.com https://cdnjs.cloudflare.com; frame-src https://*; connect-src 'self' https://vlibras.gov.br https://*;" />
+  <title>NFS-e Nacional - Portal IBS Sete Lagoas</title>
+  <link crossorigin="" href="https://fonts.gstatic.com" rel="preconnect" />
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800;900&amp;display=swap"
+    rel="stylesheet" />
+  <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" rel="stylesheet" />
+
+  <link href="assets/css/estilos.css" rel="stylesheet" />
+</head>
+
+<body>
+  <!-- CABEÇALHO PADRÃO -->
+  <header class="header">
+    <div class="header-top">
+      <div class="logo-area">
+        <a href="index.html" title="Voltar à página inicial">
+          <img alt="Voltar à página inicial" src="assets/img/logo-prefeitura.png" />
+        </a>
+        <div class="logo-text">
+          <h1>IBS-Sete Lagoas</h1>
+          <p>Reforma Tributária do Consumo</p>
         </div>
-        <div class="header-top-info">
-          <div class="contact-phone">
-            <i class="fa-solid fa-phone"></i><span>(31) 93301-0753</span>
+      </div>
+      <div class="header-top-info">
+        <div class="contact-phone">
+          <i class="fa-solid fa-phone"></i><span>(31) 93301-0753</span>
+        </div>
+        <div class="social-icons">
+          <a aria-label="Instagram" class="social-icon bt_instagram"
+            href="https://www.instagram.com/prefeituradesetelagoas/?hl=pt-br" target="_blank"><i
+              class="fab fa-instagram"></i></a>
+          <a aria-label="Facebook" class="social-icon bt_facebook"
+            href="https://www.facebook.com/prefeituramunicipaldesetelagoas" target="_blank"><i
+              class="fab fa-facebook-f"></i></a>
+          <a aria-label="YouTube" class="social-icon bt_youtube"
+            href="https://www.youtube.com/@PrefeituradeSeteLagoasMG" target="_blank"><i class="fab fa-youtube"></i></a>
+        </div>
+      </div>
+    </div>
+  </header>
+  </main>
+  <!-- Conteúdo principal -->
+  <main class="container">
+    <!-- CARD PRINCIPAL: EMISSOR -->
+    <section class="nfse-section">
+      <div class="nfse-card">
+        <span class="nfse-label">Emitir NFS-e Nacional</span>
+        <img src="assets/img/icones/nfse-emissao.png" alt="Emitir NFS-e Nacional" class="icon"
+          onclick="location.href='https://www.nfse.gov.br/EmissorNacional/'" />
+        <h3>Portal Oficial de Emissão</h3>
+        <p>
+          Clique no ícone para acessar o
+          <strong>Emissor Nacional</strong> e emitir a sua NFS-e. Utilize
+          <strong>gov.br</strong>, <strong>certificado digital</strong> ou
+          <strong>login e senha</strong> já cadastrados.
+        </p>
+      </div>
+    </section>
+
+    <!-- NOVO BLOCO: PASSO A PASSO INTELIGENTE PARA EMITIR A NFS-e NACIONAL -->
+    <section class="nfse-section" id="passo-a-passo">
+      <div class="nfse-container-inner">
+        <div class="nfse-section-intro">
+          <h2>Passo a passo para emitir a NFS-e Nacional</h2>
+          <p>
+            O emissor nacional organiza a emissão completa da NFS-e em quatro
+            etapas: <strong>Pessoas</strong>, <strong>Serviço</strong>,
+            <strong>Valores</strong> e <strong>Emitir NFS-e</strong>. Abaixo,
+            um roteiro prático destacando os campos obrigatórios e os pontos
+            de atenção.
+          </p>
+        </div>
+        <!-- INÍCIO DO BOTÃO PARA JANELA FLUTUANTE -->
+        <div class="no-popup" style="text-align: center; margin: 30px 0;">
+          <button onclick="iniciarMigracaoAssistida()" class="btn-action">
+            <i class="fa-solid"></i> Iniciar Modo Assistido
+          </button>
+          <p style="font-size: 0.9rem; color: #86868b; margin-top: 10px;">
+            <i class="fa-regular fa-window-restore"></i> Abre o sistema e este guia lado a lado.
+          </p>
+        </div>
+        <!-- FIM DO BOTÃO -->
+        <div class="nfse-resources-grid">
+          <!-- Passo 1: Acesso ao Portal -->
+          <div class="nfse-resource-card">
+            <h3>
+              <i class="fa-solid fa-right-to-bracket"></i> 1. Acessar o Portal
+              Nacional
+            </h3>
+            <ol>
+              <li>
+                Acesse o Portal Nacional da NFS-e:
+                <a href="https://www.nfse.gov.br/EmissorNacional/" target="_blank"
+                  rel="noopener noreferrer">https://www.nfse.gov.br/EmissorNacional/</a>.
+              </li>
+              <li>
+                Escolha a forma de acesso:
+                <ul>
+                  <li><strong>gov.br</strong>, ou</li>
+                  <li><strong>certificado digital</strong>, ou</li>
+                  <li><strong>Login e senha</strong> do próprio Portal.</li>
+                </ul>
+              </li>
+              <li>
+                No primeiro acesso sem certificado/gov.br, clique em
+                <strong>“Fazer primeiro acesso”</strong> e informe o
+                <strong>CNPJ</strong> ou <strong>CPF</strong> do prestador.
+              </li>
+              <li>
+                Preencha o formulário do emissor nacional com os dados da
+                empresa e crie uma senha (entre 6 e 10 caracteres, letras e/ou
+                números, considerando maiúsculas e minúsculas).
+              </li>
+              <li>
+                Após o login, no menu superior ou inferior, clique em
+                <strong>“NFS-e+”</strong> e selecione
+                <strong>“Emissão completa”</strong> (regra geral para
+                contribuintes em Sete Lagoas).
+                <br />
+                <small>
+                  A opção <strong>“Emissão simplificada”</strong> é voltada
+                  apenas ao <strong>MEI</strong>.
+                </small>
+              </li>
+            </ol>
           </div>
-          <div class="social-icons">
-            <a
-              aria-label="Instagram"
-              class="social-icon bt_instagram"
-              href="https://www.instagram.com/prefeituradesetelagoas/?hl=pt-br"
-              target="_blank"
-              ><i class="fab fa-instagram"></i
-            ></a>
-            <a
-              aria-label="Facebook"
-              class="social-icon bt_facebook"
-              href="https://www.facebook.com/prefeituramunicipaldesetelagoas"
-              target="_blank"
-              ><i class="fab fa-facebook-f"></i
-            ></a>
-            <a
-              aria-label="YouTube"
-              class="social-icon bt_youtube"
-              href="https://www.youtube.com/@PrefeituradeSeteLagoasMG"
-              target="_blank"
-              ><i class="fab fa-youtube"></i
-            ></a>
+
+          <!-- Passo 2: Dados das Pessoas -->
+          <div class="nfse-resource-card">
+            <h3>
+              <i class="fa-solid fa-user-check"></i> 2. Preencher “Pessoas”:
+              Emitente e Tomador
+            </h3>
+            <ol>
+              <li>
+                <strong>Data de competência</strong>: informe a data em que o
+                serviço foi efetivamente prestado.
+              </li>
+              <li>
+                Deixe desmarcado o box
+                <strong>“Informar série e número da DPS”</strong>, salvo se
+                você controlar manualmente esses campos. O preenchimento
+                incorreto pode travar a emissão.
+              </li>
+              <li>
+                Em <strong>“Emitente da NFS-e”</strong>, selecione
+                <strong>“Prestador”</strong> (emissões por tomador ou
+                intermediário ainda não estão disponíveis de forma geral).
+              </li>
+              <li>
+                Informe o <strong>Município do Emissor</strong> (Sete Lagoas).
+                O sistema recupera automaticamente:
+                <ul>
+                  <li>Inscrição Municipal (IM);</li>
+                  <li>CNPJ e Razão Social; e</li>
+                  <li>
+                    Indicador se é optante ou não pelo Simples Nacional.
+                  </li>
+                </ul>
+              </li>
+              <li>
+                Em <strong>“Tomador de Serviços”</strong>, escolha:
+                <ul>
+                  <li>
+                    <strong>“Tomador do Brasil”</strong>, quando for cliente
+                    nacional;
+                  </li>
+                  <li>
+                    <strong>“Tomador do Exterior”</strong>, quando o
+                    destinatário for do exterior; ou
+                  </li>
+                  <li>
+                    <strong>“Tomador não informado”</strong>, apenas em
+                    situações em que a legislação permita essa omissão.
+                  </li>
+                </ul>
+                <small>Recomendação: identifique o tomador sempre que possível,
+                  para garantir rastreabilidade e facilitar programas de
+                  incentivo fiscal.</small>
+              </li>
+              <li>
+                Depois de preencher os dados, clique em
+                <strong>“Avançar”</strong> para seguir à etapa
+                <strong>Serviço</strong>.
+              </li>
+            </ol>
+          </div>
+
+          <!-- Passo 3: Dados do Serviço -->
+          <div class="nfse-resource-card">
+            <h3>
+              <i class="fa-solid fa-clipboard-list"></i> 3. Preencher “Serviço
+              ”: Local, Código e Descrição
+            </h3>
+            <ol>
+              <li>
+                Em <strong>“Local da Prestação”</strong>:
+                <ul>
+                  <li>
+                    Informe o <strong>País</strong> e o
+                    <strong>Município</strong> quando o serviço for prestado
+                    no Brasil.
+                  </li>
+                  <li>
+                    Para serviços prestados no exterior, informe apenas o
+                    <strong>País</strong>.
+                  </li>
+                </ul>
+              </li>
+              <li>
+                Em <strong>“Serviço Prestado”</strong>, informe:
+                <ul>
+                  <li>
+                    <strong>Código de Tributação Nacional</strong> (item e
+                    subitem da Lista de Serviços da LC 116/2003), pesquisando
+                    pelo código ou pelo nome do serviço.
+                  </li>
+                  <li>
+                    Se o serviço está em situação de
+                    <strong>imunidade</strong>, <strong>exportação</strong> ou
+                    <strong>não incidência</strong> de ISSQN.
+                    <br />
+                    <small>Na maioria dos casos, a opção correta será
+                      <strong>“Não”</strong> (não é imunidade, exportação nem
+                      não incidência).</small>
+                  </li>
+                  <li>
+                    <strong>Descrição do serviço</strong>, em texto claro e
+                    objetivo (por exemplo: “Serviço de manutenção de
+                    equipamentos de informática em estabelecimento
+                    comercial”).
+                  </li>
+                  <li>
+                    <strong>Item NBS</strong> correspondente ao serviço
+                    prestado, utilizando a tabela de correlação oficial entre
+                    Lista de Serviços e NBS, quando aplicável.
+                  </li>
+                </ul>
+              </li>
+              <li>
+                Sobre <strong>imunidade</strong>: aplica-se apenas às
+                hipóteses do art. 150, VI, da Constituição Federal (ex.:
+                templos, partidos políticos etc.).
+              </li>
+              <li>
+                Sobre <strong>exportação de serviços</strong> para ISS:
+                considera-se exportação quando o serviço é concluído e tem seu
+                resultado <strong>no exterior</strong>. Se o consumo ou
+                resultado ocorrer no Brasil, não é exportação e o ISS é devido
+                ao município do local de incidência.
+              </li>
+              <li>
+                Em <strong>“Informações Complementares”</strong>, utilize,
+                quando necessário:
+                <ul>
+                  <li>
+                    Número de documento de responsabilidade técnica (ART,
+                    RRT);
+                  </li>
+                  <li>Documento de referência (contrato, pedido etc.);</li>
+                  <li>
+                    Outras observações relevantes ao fisco ou ao tomador.
+                  </li>
+                </ul>
+              </li>
+              <li>
+                Após conferir, clique em <strong>“Avançar”</strong> para ir à
+                etapa <strong>Valores</strong>.
+              </li>
+            </ol>
+          </div>
+
+          <!-- Passo 4: Valores e Tributação Municipal -->
+          <div class="nfse-resource-card">
+            <h3>
+              <i class="fa-solid fa-calculator"></i> 4. Preencher “Valores” e
+              “Tributação Municipal”
+            </h3>
+            <ol>
+              <li>
+                Em <strong>“Valores do Serviço Prestado”</strong>:
+                <ul>
+                  <li>
+                    Informe o <strong>valor do serviço</strong> (base bruta).
+                  </li>
+                  <li>
+                    Se houver, informe o
+                    <strong>valor recebido por intermediário</strong>.
+                  </li>
+                  <li>
+                    <strong>Desconto incondicionado</strong>: desconto dado
+                    sem qualquer condição futura. Reduz a base de cálculo do
+                    ISS.
+                  </li>
+                  <li>
+                    <strong>Desconto condicionado</strong>: depende de
+                    condição futura (ex.: pagamento em dia). Não reduz a base
+                    de cálculo do ISS no momento da emissão.
+                  </li>
+                </ul>
+              </li>
+              <li>
+                Em <strong>“Tributação Municipal”</strong>, avalie:
+                <ul>
+                  <li>
+                    <strong>Regime Especial de Tributação</strong>:
+                    normalmente ligado a sociedades de profissionais ou
+                    regimes específicos definidos em lei local.
+                  </li>
+                  <li>
+                    <strong>Exigibilidade suspensa</strong>: marque apenas se
+                    houver decisão judicial ou processo administrativo
+                    suspendendo a exigibilidade do ISS, informando o número do
+                    processo.
+                  </li>
+                  <li>
+                    <strong>Retenção do ISSQN na fonte</strong> e
+                    <strong>Substituição Tributária</strong>: sinalize quando
+                    o tomador for responsável pelo recolhimento (ex.: órgãos
+                    públicos, grandes tomadores previstos em lei municipal).
+                  </li>
+                  <li>
+                    <strong>Benefício Municipal Fiscal</strong>: aplique
+                    somente se o serviço se enquadrar em alíquota diferenciada
+                    ou isenção prevista na legislação municipal (call center,
+                    saúde, serviços para o exterior com consumo no Brasil
+                    etc., conforme norma local).
+                  </li>
+                  <li>
+                    <strong>Dedução/Redução da Base de Cálculo</strong>:
+                    utilize quando houver valores repassados a terceiros que a
+                    legislação autorize deduzir (ex.: repasses a profissionais
+                    parceiros, materiais de construção em incorporação, etc.).
+                  </li>
+                </ul>
+              </li>
+              <li>
+                O <strong>ISSQN devido</strong> será calculado automaticamente
+                pelo sistema a partir do serviço, alíquota e base de cálculo
+                preenchidos.
+              </li>
+              <li>
+                Em <strong>“Tributação Federal”</strong>, preencha, se
+                aplicável:
+                <ul>
+                  <li>PIS/COFINS;</li>
+                  <li>IRRF, CSLL e contribuição previdenciária retidos.</li>
+                </ul>
+                <small>O correto preenchimento destes campos é de
+                  <strong>responsabilidade do contribuinte</strong>, conforme
+                  legislação federal.</small>
+              </li>
+              <li>
+                Em <strong>“Valor aproximado dos tributos”</strong>, informe o
+                total estimado de tributos federais, estaduais e municipais
+                incidentes na operação, em valor ou percentual, para fins de
+                transparência ao tomador.
+              </li>
+              <li>
+                Após preencher todos os campos obrigatórios (marcados com
+                asterisco vermelho), clique em <strong>“Avançar”</strong> para
+                revisar e emitir a NFS-e.
+              </li>
+            </ol>
+          </div>
+
+          <!-- Passo 5: Conferência e Emissão -->
+          <div class="nfse-resource-card">
+            <h3>
+              <i class="fa-solid fa-file-invoice-dollar"></i> 5. Conferir e
+              emitir a NFS-e
+            </h3>
+            <ol>
+              <li>
+                Na tela <strong>“Emitir NFS-e”</strong>, confira o
+                <strong>resumo da nota</strong>:
+                <ul>
+                  <li>Dados do emitente;</li>
+                  <li>Dados do tomador;</li>
+                  <li>Serviço prestado (código, descrição, NBS);</li>
+                  <li>Valores e descontos;</li>
+                  <li>Tributação municipal e federal.</li>
+                </ul>
+              </li>
+              <li>
+                Verifique também a <strong>prévia dos valores</strong> (valor
+                do serviço, ISS, base de cálculo, deduções, etc.).
+              </li>
+              <li>
+                Se algum dado estiver incorreto, utilize as opções de
+                <strong>“voltar”</strong> para ajustar as etapas anteriores.
+              </li>
+              <li>
+                Estando tudo correto, clique em
+                <strong>“Emitir NFS-e”</strong>. O sistema validará os dados e
+                confirmará a emissão.
+              </li>
+              <li>
+                Após a emissão, faça o download:
+                <ul>
+                  <li>
+                    do arquivo <strong>XML</strong> da NFS-e (uso contábil e
+                    sistemas); e
+                  </li>
+                  <li>
+                    do <strong>DANFSe em PDF</strong>, que pode ser enviado ao
+                    tomador.
+                  </li>
+                </ul>
+              </li>
+            </ol>
+          </div>
+
+          <!-- Passo 6: Consulta, Cancelamento e DAM -->
+          <div class="nfse-resource-card">
+            <h3>
+              <i class="fa-solid fa-file-circle-check"></i> 6. Consultar,
+              corrigir ou cancelar (quando permitido)
+            </h3>
+            <ol>
+              <li>
+                Utilize o menu de <strong>Consulta de NFS-e emitidas</strong>
+                do próprio emissor nacional para localizar notas já geradas.
+              </li>
+              <li>
+                Na lista de notas, você poderá:
+                <ul>
+                  <li>visualizar o DANFSe;</li>
+                  <li>baixar o XML ou PDF;</li>
+                  <li>
+                    realizar <strong>cancelamento</strong> ou
+                    <strong>cancelamento por substituição</strong>, quando a
+                    legislação permitir.
+                  </li>
+                </ul>
+              </li>
+              <li>
+                O cancelamento da NFS-e costuma ter
+                <strong>prazo máximo de 60 dias</strong> a partir da emissão
+                e, em regra, não é permitido após o pagamento do imposto (ISS)
+                correspondente.
+              </li>
+              <li>
+                Para recolher o ISS/IBS-Municipal devido, siga sempre as
+                orientações da Prefeitura de Sete Lagoas e utilize apenas os
+                canais oficiais (como o Portal CECON, indicado no aviso no
+                topo desta página).
+              </li>
+            </ol>
           </div>
         </div>
       </div>
-    </header>
-    </main>
-       <!--voltar-->
-    <!-- Conteúdo principal -->
-    <main class="container">
-      <!-- CARD PRINCIPAL: EMISSOR -->
-      <section class="nfse-section">
-        <div class="nfse-card">
-          <span class="nfse-label">Emitir NFS-e Nacional</span>
-          <img
-            src="assets/img/icones/nfse-emissao.png"
-            alt="Emitir NFS-e Nacional"
-            class="icon"
-            onclick="location.href='https://www.nfse.gov.br/EmissorNacional/'"
-          />
-          <h3>Portal Oficial de Emissão</h3>
-          <p>
-            Clique no ícone para acessar o
-            <strong>Emissor Nacional</strong> e emitir a sua NFS-e. Utilize
-            <strong>gov.br</strong>, <strong>certificado digital</strong> ou
-            <strong>login e senha</strong> já cadastrados.
-          </p>
-        </div>
-      </section>
-
-    <!-- NOVO BLOCO: PASSO A PASSO INTELIGENTE PARA EMITIR A NFS-e NACIONAL -->
-      <section class="nfse-section" id="passo-a-passo">
-        <div class="nfse-container-inner">
-          <div class="nfse-section-intro">
-            <h2>Passo a passo para emitir a NFS-e Nacional</h2>
-            <p>
-              O emissor nacional organiza a emissão completa da NFS-e em quatro
-              etapas: <strong>Pessoas</strong>, <strong>Serviço</strong>,
-              <strong>Valores</strong> e <strong>Emitir NFS-e</strong>. Abaixo,
-              um roteiro prático destacando os campos obrigatórios e os pontos
-              de atenção.
-            </p>
-          </div>
-    <!-- INÍCIO DO BOTÃO PARA JANELA FLUTUANTE -->
-        <div class="no-popup" style="text-align: center; margin: 30px 0;">
-         <button onclick="iniciarMigracaoAssistida()" class="btn-action">
-         <i class="fa-solid"></i> Iniciar Modo Assistido
-         </button>
-          <p style="font-size: 0.9rem; color: #86868b; margin-top: 10px;">
-          <i class="fa-regular fa-window-restore"></i> Abre o sistema e este guia lado a lado.
-          </p>
-        </div>
-<!-- FIM DO BOTÃO -->
-          <div class="nfse-resources-grid">
-            <!-- Passo 1: Acesso ao Portal -->
-            <div class="nfse-resource-card">
-              <h3>
-                <i class="fa-solid fa-right-to-bracket"></i> 1. Acessar o Portal
-                Nacional
-              </h3>
-              <ol>
-                <li>
-                  Acesse o Portal Nacional da NFS-e:
-                  <a
-                    href="https://www.nfse.gov.br/EmissorNacional/"
-                    target="_blank"
-                    rel="noopener noreferrer"
-                    >https://www.nfse.gov.br/EmissorNacional/</a
-                  >.
-                </li>
-                <li>
-                  Escolha a forma de acesso:
-                  <ul>
-                    <li><strong>gov.br</strong>, ou</li>
-                    <li><strong>certificado digital</strong>, ou</li>
-                    <li><strong>Login e senha</strong> do próprio Portal.</li>
-                  </ul>
-                </li>
-                <li>
-                  No primeiro acesso sem certificado/gov.br, clique em
-                  <strong>“Fazer primeiro acesso”</strong> e informe o
-                  <strong>CNPJ</strong> ou <strong>CPF</strong> do prestador.
-                </li>
-                <li>
-                  Preencha o formulário do emissor nacional com os dados da
-                  empresa e crie uma senha (entre 6 e 10 caracteres, letras e/ou
-                  números, considerando maiúsculas e minúsculas).
-                </li>
-                <li>
-                  Após o login, no menu superior ou inferior, clique em
-                  <strong>“NFS-e+”</strong> e selecione
-                  <strong>“Emissão completa”</strong> (regra geral para
-                  contribuintes em Sete Lagoas).
-                  <br />
-                  <small>
-                    A opção <strong>“Emissão simplificada”</strong> é voltada
-                    apenas ao <strong>MEI</strong>.
-                  </small>
-                </li>
-              </ol>
-            </div>
-
-            <!-- Passo 2: Dados das Pessoas -->
-            <div class="nfse-resource-card">
-              <h3>
-                <i class="fa-solid fa-user-check"></i> 2. Preencher “Pessoas”:
-                Emitente e Tomador
-              </h3>
-              <ol>
-                <li>
-                  <strong>Data de competência</strong>: informe a data em que o
-                  serviço foi efetivamente prestado.
-                </li>
-                <li>
-                  Deixe desmarcado o box
-                  <strong>“Informar série e número da DPS”</strong>, salvo se
-                  você controlar manualmente esses campos. O preenchimento
-                  incorreto pode travar a emissão.
-                </li>
-                <li>
-                  Em <strong>“Emitente da NFS-e”</strong>, selecione
-                  <strong>“Prestador”</strong> (emissões por tomador ou
-                  intermediário ainda não estão disponíveis de forma geral).
-                </li>
-                <li>
-                  Informe o <strong>Município do Emissor</strong> (Sete Lagoas).
-                  O sistema recupera automaticamente:
-                  <ul>
-                    <li>Inscrição Municipal (IM);</li>
-                    <li>CNPJ e Razão Social; e</li>
-                    <li>
-                      Indicador se é optante ou não pelo Simples Nacional.
-                    </li>
-                  </ul>
-                </li>
-                <li>
-                  Em <strong>“Tomador de Serviços”</strong>, escolha:
-                  <ul>
-                    <li>
-                      <strong>“Tomador do Brasil”</strong>, quando for cliente
-                      nacional;
-                    </li>
-                    <li>
-                      <strong>“Tomador do Exterior”</strong>, quando o
-                      destinatário for do exterior; ou
-                    </li>
-                    <li>
-                      <strong>“Tomador não informado”</strong>, apenas em
-                      situações em que a legislação permita essa omissão.
-                    </li>
-                  </ul>
-                  <small
-                    >Recomendação: identifique o tomador sempre que possível,
-                    para garantir rastreabilidade e facilitar programas de
-                    incentivo fiscal.</small
-                  >
-                </li>
-                <li>
-                  Depois de preencher os dados, clique em
-                  <strong>“Avançar”</strong> para seguir à etapa
-                  <strong>Serviço</strong>.
-                </li>
-              </ol>
-            </div>
-
-            <!-- Passo 3: Dados do Serviço -->
-            <div class="nfse-resource-card">
-              <h3>
-                <i class="fa-solid fa-clipboard-list"></i> 3. Preencher “Serviço
-                ”: Local, Código e Descrição
-              </h3>
-              <ol>
-                <li>
-                  Em <strong>“Local da Prestação”</strong>:
-                  <ul>
-                    <li>
-                      Informe o <strong>País</strong> e o
-                      <strong>Município</strong> quando o serviço for prestado
-                      no Brasil.
-                    </li>
-                    <li>
-                      Para serviços prestados no exterior, informe apenas o
-                      <strong>País</strong>.
-                    </li>
-                  </ul>
-                </li>
-                <li>
-                  Em <strong>“Serviço Prestado”</strong>, informe:
-                  <ul>
-                    <li>
-                      <strong>Código de Tributação Nacional</strong> (item e
-                      subitem da Lista de Serviços da LC 116/2003), pesquisando
-                      pelo código ou pelo nome do serviço.
-                    </li>
-                    <li>
-                      Se o serviço está em situação de
-                      <strong>imunidade</strong>, <strong>exportação</strong> ou
-                      <strong>não incidência</strong> de ISSQN.
-                      <br />
-                      <small
-                        >Na maioria dos casos, a opção correta será
-                        <strong>“Não”</strong> (não é imunidade, exportação nem
-                        não incidência).</small
-                      >
-                    </li>
-                    <li>
-                      <strong>Descrição do serviço</strong>, em texto claro e
-                      objetivo (por exemplo: “Serviço de manutenção de
-                      equipamentos de informática em estabelecimento
-                      comercial”).
-                    </li>
-                    <li>
-                      <strong>Item NBS</strong> correspondente ao serviço
-                      prestado, utilizando a tabela de correlação oficial entre
-                      Lista de Serviços e NBS, quando aplicável.
-                    </li>
-                  </ul>
-                </li>
-                <li>
-                  Sobre <strong>imunidade</strong>: aplica-se apenas às
-                  hipóteses do art. 150, VI, da Constituição Federal (ex.:
-                  templos, partidos políticos etc.).
-                </li>
-                <li>
-                  Sobre <strong>exportação de serviços</strong> para ISS:
-                  considera-se exportação quando o serviço é concluído e tem seu
-                  resultado <strong>no exterior</strong>. Se o consumo ou
-                  resultado ocorrer no Brasil, não é exportação e o ISS é devido
-                  ao município do local de incidência.
-                </li>
-                <li>
-                  Em <strong>“Informações Complementares”</strong>, utilize,
-                  quando necessário:
-                  <ul>
-                    <li>
-                      Número de documento de responsabilidade técnica (ART,
-                      RRT);
-                    </li>
-                    <li>Documento de referência (contrato, pedido etc.);</li>
-                    <li>
-                      Outras observações relevantes ao fisco ou ao tomador.
-                    </li>
-                  </ul>
-                </li>
-                <li>
-                  Após conferir, clique em <strong>“Avançar”</strong> para ir à
-                  etapa <strong>Valores</strong>.
-                </li>
-              </ol>
-            </div>
-
-            <!-- Passo 4: Valores e Tributação Municipal -->
-            <div class="nfse-resource-card">
-              <h3>
-                <i class="fa-solid fa-calculator"></i> 4. Preencher “Valores” e
-                “Tributação Municipal”
-              </h3>
-              <ol>
-                <li>
-                  Em <strong>“Valores do Serviço Prestado”</strong>:
-                  <ul>
-                    <li>
-                      Informe o <strong>valor do serviço</strong> (base bruta).
-                    </li>
-                    <li>
-                      Se houver, informe o
-                      <strong>valor recebido por intermediário</strong>.
-                    </li>
-                    <li>
-                      <strong>Desconto incondicionado</strong>: desconto dado
-                      sem qualquer condição futura. Reduz a base de cálculo do
-                      ISS.
-                    </li>
-                    <li>
-                      <strong>Desconto condicionado</strong>: depende de
-                      condição futura (ex.: pagamento em dia). Não reduz a base
-                      de cálculo do ISS no momento da emissão.
-                    </li>
-                  </ul>
-                </li>
-                <li>
-                  Em <strong>“Tributação Municipal”</strong>, avalie:
-                  <ul>
-                    <li>
-                      <strong>Regime Especial de Tributação</strong>:
-                      normalmente ligado a sociedades de profissionais ou
-                      regimes específicos definidos em lei local.
-                    </li>
-                    <li>
-                      <strong>Exigibilidade suspensa</strong>: marque apenas se
-                      houver decisão judicial ou processo administrativo
-                      suspendendo a exigibilidade do ISS, informando o número do
-                      processo.
-                    </li>
-                    <li>
-                      <strong>Retenção do ISSQN na fonte</strong> e
-                      <strong>Substituição Tributária</strong>: sinalize quando
-                      o tomador for responsável pelo recolhimento (ex.: órgãos
-                      públicos, grandes tomadores previstos em lei municipal).
-                    </li>
-                    <li>
-                      <strong>Benefício Municipal Fiscal</strong>: aplique
-                      somente se o serviço se enquadrar em alíquota diferenciada
-                      ou isenção prevista na legislação municipal (call center,
-                      saúde, serviços para o exterior com consumo no Brasil
-                      etc., conforme norma local).
-                    </li>
-                    <li>
-                      <strong>Dedução/Redução da Base de Cálculo</strong>:
-                      utilize quando houver valores repassados a terceiros que a
-                      legislação autorize deduzir (ex.: repasses a profissionais
-                      parceiros, materiais de construção em incorporação, etc.).
-                    </li>
-                  </ul>
-                </li>
-                <li>
-                  O <strong>ISSQN devido</strong> será calculado automaticamente
-                  pelo sistema a partir do serviço, alíquota e base de cálculo
-                  preenchidos.
-                </li>
-                <li>
-                  Em <strong>“Tributação Federal”</strong>, preencha, se
-                  aplicável:
-                  <ul>
-                    <li>PIS/COFINS;</li>
-                    <li>IRRF, CSLL e contribuição previdenciária retidos.</li>
-                  </ul>
-                  <small
-                    >O correto preenchimento destes campos é de
-                    <strong>responsabilidade do contribuinte</strong>, conforme
-                    legislação federal.</small
-                  >
-                </li>
-                <li>
-                  Em <strong>“Valor aproximado dos tributos”</strong>, informe o
-                  total estimado de tributos federais, estaduais e municipais
-                  incidentes na operação, em valor ou percentual, para fins de
-                  transparência ao tomador.
-                </li>
-                <li>
-                  Após preencher todos os campos obrigatórios (marcados com
-                  asterisco vermelho), clique em <strong>“Avançar”</strong> para
-                  revisar e emitir a NFS-e.
-                </li>
-              </ol>
-            </div>
-
-            <!-- Passo 5: Conferência e Emissão -->
-            <div class="nfse-resource-card">
-              <h3>
-                <i class="fa-solid fa-file-invoice-dollar"></i> 5. Conferir e
-                emitir a NFS-e
-              </h3>
-              <ol>
-                <li>
-                  Na tela <strong>“Emitir NFS-e”</strong>, confira o
-                  <strong>resumo da nota</strong>:
-                  <ul>
-                    <li>Dados do emitente;</li>
-                    <li>Dados do tomador;</li>
-                    <li>Serviço prestado (código, descrição, NBS);</li>
-                    <li>Valores e descontos;</li>
-                    <li>Tributação municipal e federal.</li>
-                  </ul>
-                </li>
-                <li>
-                  Verifique também a <strong>prévia dos valores</strong> (valor
-                  do serviço, ISS, base de cálculo, deduções, etc.).
-                </li>
-                <li>
-                  Se algum dado estiver incorreto, utilize as opções de
-                  <strong>“voltar”</strong> para ajustar as etapas anteriores.
-                </li>
-                <li>
-                  Estando tudo correto, clique em
-                  <strong>“Emitir NFS-e”</strong>. O sistema validará os dados e
-                  confirmará a emissão.
-                </li>
-                <li>
-                  Após a emissão, faça o download:
-                  <ul>
-                    <li>
-                      do arquivo <strong>XML</strong> da NFS-e (uso contábil e
-                      sistemas); e
-                    </li>
-                    <li>
-                      do <strong>DANFSe em PDF</strong>, que pode ser enviado ao
-                      tomador.
-                    </li>
-                  </ul>
-                </li>
-              </ol>
-            </div>
-
-            <!-- Passo 6: Consulta, Cancelamento e DAM -->
-            <div class="nfse-resource-card">
-              <h3>
-                <i class="fa-solid fa-file-circle-check"></i> 6. Consultar,
-                corrigir ou cancelar (quando permitido)
-              </h3>
-              <ol>
-                <li>
-                  Utilize o menu de <strong>Consulta de NFS-e emitidas</strong>
-                  do próprio emissor nacional para localizar notas já geradas.
-                </li>
-                <li>
-                  Na lista de notas, você poderá:
-                  <ul>
-                    <li>visualizar o DANFSe;</li>
-                    <li>baixar o XML ou PDF;</li>
-                    <li>
-                      realizar <strong>cancelamento</strong> ou
-                      <strong>cancelamento por substituição</strong>, quando a
-                      legislação permitir.
-                    </li>
-                  </ul>
-                </li>
-                <li>
-                  O cancelamento da NFS-e costuma ter
-                  <strong>prazo máximo de 60 dias</strong> a partir da emissão
-                  e, em regra, não é permitido após o pagamento do imposto (ISS)
-                  correspondente.
-                </li>
-                <li>
-                  Para recolher o ISS/IBS-Municipal devido, siga sempre as
-                  orientações da Prefeitura de Sete Lagoas e utilize apenas os
-                  canais oficiais (como o Portal CECON, indicado no aviso no
-                  topo desta página).
-                </li>
-              </ol>
-            </div>
-          </div>
-        </div>
-      </section>
-      <!-- FIM NOVO BLOCO PASSO A PASSO -->
+    </section>
+    <!-- FIM NOVO BLOCO PASSO A PASSO -->
     <!-- Rodapé -->
     <footer class="footer">
       <div class="footer-container">
@@ -517,5 +481,6 @@
 
     <!-- Scripts -->
     <script src="assets/js/script.js"></script>
-  </body>
+</body>
+
 </html>

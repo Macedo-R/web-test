@@ -1,1049 +1,975 @@
 <!DOCTYPE html>
 
 <html lang="pt-BR">
-  <head>
-    <meta charset="utf-8" />
-    <meta content="width=device-width, initial-scale=1.0" name="viewport" />
-    <!-- Cabeçalhos de segurança básicos -->
-    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-    <meta http-equiv="X-Content-Type-Options" content="nosniff" />
-    <meta http-equiv="X-XSS-Protection" content="1; mode=block" />
-    <meta name="referrer" content="strict-origin-when-cross-origin" />
-    <!-- Política de Segurança de Conteúdo (CSP) -->
-    <meta
-      http-equiv="Content-Security-Policy"
-      content="default-src 'self'; img-src 'self' data: https://*; script-src 'self' 'unsafe-inline' https://cdnjs.cloudflare.com https://vlibras.gov.br https://kit.fontawesome.com; style-src 'self' 'unsafe-inline' https://cdnjs.cloudflare.com https://fonts.googleapis.com; font-src 'self' https://fonts.gstatic.com https://cdnjs.cloudflare.com; frame-src https://*; connect-src 'self' https://vlibras.gov.br https://*;"
-    />
-    <title>Comunicados - Portal IBS Sete Lagoas</title>
-    <!-- Fontes / Ícones -->
-    <link crossorigin="" href="https://fonts.gstatic.com" rel="preconnect" />
-    <link
-      href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800;900&amp;display=swap"
-      rel="stylesheet"
-    />
-    <link
-      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css"
-      rel="stylesheet"
-    />
 
-    <link href="assets/css/estilos.css" rel="stylesheet" />
-  </head>
-  <body>
-    <!-- CABEÇALHO PADRÃO -->
-    <header class="header">
-      <div class="header-top">
-        <div class="logo-area">
-          <a href="index.html" title="Voltar à página inicial">
-            <img
-              alt="Voltar à página inicial"
-              src="assets/img/logo-prefeitura.png"
-            />
-          </a>
-          <div class="logo-text">
-            <h1>IBS-Sete Lagoas</h1>
-            <p>Reforma Tributária do Consumo</p>
-          </div>
-        </div>
-        <div class="header-top-info">
-          <div class="contact-phone">
-            <i class="fa-solid fa-phone"></i><span>(31) 93301-0753</span>
-          </div>
-          <div class="social-icons">
-            <a
-              aria-label="Instagram"
-              class="social-icon bt_instagram"
-              href="https://www.instagram.com/prefeituradesetelagoas/?hl=pt-br"
-              target="_blank"
-              ><i class="fab fa-instagram"></i
-            ></a>
-            <a
-              aria-label="Facebook"
-              class="social-icon bt_facebook"
-              href="https://www.facebook.com/prefeituramunicipaldesetelagoas"
-              target="_blank"
-              ><i class="fab fa-facebook-f"></i
-            ></a>
-            <a
-              aria-label="YouTube"
-              class="social-icon bt_youtube"
-              href="https://www.youtube.com/@PrefeituradeSeteLagoasMG"
-              target="_blank"
-              ><i class="fab fa-youtube"></i
-            ></a>
-          </div>
+<head>
+  <meta charset="utf-8" />
+  <meta content="width=device-width, initial-scale=1.0" name="viewport" />
+  <!-- Cabeçalhos de segurança básicos -->
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta http-equiv="X-Content-Type-Options" content="nosniff" />
+  <meta http-equiv="X-XSS-Protection" content="1; mode=block" />
+  <meta name="referrer" content="strict-origin-when-cross-origin" />
+  <!-- Política de Segurança de Conteúdo (CSP) -->
+  <meta http-equiv="Content-Security-Policy"
+    content="default-src 'self'; img-src 'self' data: https://*; script-src 'self' 'unsafe-inline' https://cdnjs.cloudflare.com https://vlibras.gov.br https://kit.fontawesome.com; style-src 'self' 'unsafe-inline' https://cdnjs.cloudflare.com https://fonts.googleapis.com; font-src 'self' https://fonts.gstatic.com https://cdnjs.cloudflare.com; frame-src https://*; connect-src 'self' https://vlibras.gov.br https://*;" />
+  <title>Comunicados - Portal IBS Sete Lagoas</title>
+  <!-- Fontes / Ícones -->
+  <link crossorigin="" href="https://fonts.gstatic.com" rel="preconnect" />
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800;900&amp;display=swap"
+    rel="stylesheet" />
+  <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" rel="stylesheet" />
+
+  <link href="assets/css/estilos.css" rel="stylesheet" />
+</head>
+
+<body>
+  <!-- CABEÇALHO PADRÃO -->
+  <header class="header">
+    <div class="header-top">
+      <div class="logo-area">
+        <a href="index.html" title="Voltar à página inicial">
+          <img alt="Voltar à página inicial" src="assets/img/logo-prefeitura.png" />
+        </a>
+        <div class="logo-text">
+          <h1>IBS-Sete Lagoas</h1>
+          <p>Reforma Tributária do Consumo</p>
         </div>
       </div>
-    </header>
-    <!-- CONTEÚDO PRINCIPAL -->
-    <main class="container">
-      <h1 class="page-title">Comunicados e Notícias</h1>
-      <p class="intro-text">
-        Fique por dentro das principais novidades relacionadas à Reforma
-        Tributária e ao IBS em Sete Lagoas. Acompanhe os comunicados oficiais da
-        Secretaria Municipal da Fazenda.
-      </p>
-      <!-- COMUNICADO -->
-      <div class="news-item has-ticket">
-        <span class="ticket ticket--comunicado">Comunicado</span>
-        <div class="news-header">
-          <h3>
-            Mudanças na Emissão da Nota Fiscal de Serviços Eletrônica (NFS-e) em
-            Razão da Reforma Tributária do Consumo
-          </h3>
-          <div aria-hidden="true" class="news-icon">
-            <i class="fas fa-chevron-down"></i>
-          </div>
-          <div class="news-date">
-            Publicado em 28 de Outubro de 2025 - 01:47
-          </div>
+      <div class="header-top-info">
+        <div class="contact-phone">
+          <i class="fa-solid fa-phone"></i><span>(31) 93301-0753</span>
         </div>
-        <div aria-hidden="true" class="news-content" id="news-1">
-          <div class="news-content-inner">
-            <p>
-              A Secretaria Municipal da Fazenda informa que, em decorrência da
-              Emenda Constitucional nº 132, de 20 de dezembro de 2023, foi
-              instituída a Reforma Tributária do Consumo, cujas diretrizes foram
-              regulamentadas pela Lei Complementar nº 214, de 16 de janeiro de
-              2025.
-            </p>
-            <p>
-              Essa lei estabelece profundas alterações no sistema tributário
-              nacional, entre elas a criação do Imposto sobre Bens e Serviços
-              (IBS), de competência compartilhada entre Estados, Distrito
-              Federal e Municípios. O novo imposto passará a incidir a partir de
-              1º de janeiro de 2026, substituindo gradualmente o Imposto sobre
-              Serviços de Qualquer Natureza (ISSQN), que será extinto até o
-              exercício de 2033.
-            </p>
-            <h4>Adequação dos Sistemas de Emissão Fiscal</h4>
-            <p>
-              De acordo com o artigo 62 da referida Lei Complementar, os
-              Municípios deverão optar entre as seguintes alternativas:
-            </p>
-            <ul>
-              <li>
-                Adequar os sistemas próprios de autorização e emissão de
-                documentos fiscais eletrônicos, de forma a permitir o uso de
-                layout padronizado com campos específicos para IBS e CBS; ou
-              </li>
-              <li>
-                Autorizar os contribuintes locais a emitir a Nota Fiscal de
-                Serviços Eletrônica (NFS-e) de padrão nacional, por meio do
-                Ambiente Nacional da NFS-e.
-              </li>
-            </ul>
-            <p>
-              A Superintendência de Rendas Mobiliárias encontra-se em fase de
-              avaliação técnica para definir a melhor alternativa a ser adotada
-              pelo Município, considerando a viabilidade operacional e o impacto
-              junto aos prestadores de serviços.
-            </p>
-            <p>
-              Todos os contribuintes serão formalmente comunicados da decisão
-              final, com antecedência suficiente para a realização das
-              adaptações necessárias em seus sistemas de emissão.
-            </p>
-            <h4>Padrão Nacional e Documentação Técnica</h4>
-            <p>
-              O sistema municipal de emissão está sendo preparado para o padrão
-              nacional de documento fiscal eletrônico, conforme estabelecido
-              pela Resolução CFNFS-e nº 03, de 30 de agosto de 2023, e pela Nota
-              Técnica SE/CGNFS-e nº 003, de 4 de julho de 2025,
-              independentemente da opção municipal.
-            </p>
-            <p>
-              Os prestadores de serviços devem promover as adaptações técnicas
-              exigidas para adequar seus emissores de NFS-e ao novo layout
-              nacional.<br />
-              Toda a documentação técnica necessária encontra-se disponível no
-              Portal Nacional da NFS-e, acessível em:
-              <a
-                href="https://www.gov.br/nfse/pt-br/biblioteca/documentacao-tecnica"
-                rel="noopener noreferrer"
-                target="_blank"
-                >https://www.gov.br/nfse/pt-br/biblioteca/documentacao-tecnica</a
-              >
-            </p>
-            <p>
-              Recomenda-se que os responsáveis por sistemas de Tecnologia da
-              Informação (TI) consultem essa documentação e realizem as
-              atualizações cabíveis.<br />
-              Nos casos em que o sistema emissor seja fornecido por empresa
-              terceirizada, é essencial que o contribuinte solicite a
-              atualização do software ao seu respectivo fornecedor.
-            </p>
-            <h4>Prazos e Obrigatoriedade</h4>
-            <p>
-              A partir de 1º de janeiro de 2026, todos os contribuintes
-              prestadores de serviços estarão obrigados a emitir a Nota Fiscal
-              de Serviços Eletrônica (NFS-e) no padrão nacional, a exemplo do
-              que já ocorre com os Microempreendedores Individuais (MEI).
-            </p>
-            <p style="text-align: right; font-style: italic; margin-top: 20px">
-              Secretaria Municipal da Fazenda<br />
-              Prefeitura de Sete Lagoas<br />
-              Compromisso com a modernização fiscal e a transparência
-              tributária.
-            </p>
-          </div>
+        <div class="social-icons">
+          <a aria-label="Instagram" class="social-icon bt_instagram"
+            href="https://www.instagram.com/prefeituradesetelagoas/?hl=pt-br" target="_blank"><i
+              class="fab fa-instagram"></i></a>
+          <a aria-label="Facebook" class="social-icon bt_facebook"
+            href="https://www.facebook.com/prefeituramunicipaldesetelagoas" target="_blank"><i
+              class="fab fa-facebook-f"></i></a>
+          <a aria-label="YouTube" class="social-icon bt_youtube"
+            href="https://www.youtube.com/@PrefeituradeSeteLagoasMG" target="_blank"><i class="fab fa-youtube"></i></a>
         </div>
       </div>
-      <!-- FIM COMUNNICADO -->
-      <!-- INÍCIO: Artigo Simples Nacional (Gerado) -->
-      <div class="news-item has-ticket" data-kind="artigo">
-        <span class="ticket ticket--news">Artigo</span>
-        <div class="news-header">
-          <h3>
-            Alterações introduzidas pela Reforma Tributária no Simples Nacional
-          </h3>
-          <div class="news-icon">
-            <i aria-hidden="true" class="fas fa-chevron-down"></i>
-          </div>
-          <div class="news-date">
-            Publicado em 28 de outubro de 2025 — 18:00
-          </div>
+    </div>
+    <nav class="nav-bar">
+      <div class="nav-container">
+        <a href="index.html">Página Inicial</a>
+        <a href="emitir-nfse.html">Emitir NFS-e</a>
+        <a href="https://nfse.setelagoas.mg.gov.br/" target="_blank">Emitir Guia</a>
+        <a href="https://www.nfse.gov.br/consultapublica" target="_blank">Consultar NFS-e</a>
+      </div>
+    </nav>
+  </header>
+  <!-- CONTEÚDO PRINCIPAL -->
+  <main class="container">
+    <h1 class="page-title">Comunicados e Notícias</h1>
+    <p class="intro-text">
+      Fique por dentro das principais novidades relacionadas à Reforma
+      Tributária e ao IBS em Sete Lagoas. Acompanhe os comunicados oficiais da
+      Secretaria Municipal da Fazenda.
+    </p>
+    <!-- COMUNICADO -->
+    <div class="news-item has-ticket">
+      <span class="ticket ticket--comunicado">Comunicado</span>
+      <div class="news-header">
+        <h3>
+          Mudanças na Emissão da Nota Fiscal de Serviços Eletrônica (NFS-e) em
+          Razão da Reforma Tributária do Consumo
+        </h3>
+        <div aria-hidden="true" class="news-icon">
+          <i class="fas fa-chevron-down"></i>
         </div>
-        <div aria-hidden="true" class="news-content" id="sn-reforma">
-          <div class="news-content-inner">
-            <h4>1. Introdução</h4>
-            <p>
-              A Emenda Constitucional (EC) nº 132/2023 instituiu o novo modelo
-              tributário baseado na incidência do Imposto sobre Bens e Serviços
-              (IBS) e da Contribuição sobre Bens e Serviços (CBS), o que
-              representou uma mudança significativa no sistema de tributação
-              sobre o consumo no Brasil. Como parte desse novo modelo normativo,
-              a Lei Complementar nº 214/2025, que regulamenta a EC 132/2023,
-              promoveu alterações substanciais na Lei Complementar nº 123/2006,
-              reorganizando aspectos estruturais do Simples Nacional (SN).
-            </p>
-            <p>
-              A Lei Complementar 214/2025 não apenas incluiu as mudanças
-              decorrentes do novo modelo tributário, como também realizou outras
-              modificações que vão além da reforma, tal como o novo conceito de
-              receita bruta. Desta forma, o presente artigo envolve não apenas
-              as alterações da Lei Geral do Simples Nacional no escopo da
-              Reforma Tributária, mas também as modificações relevantes do
-              regime unificado de tributação das Micro e Pequenas Empresas (MPE)
-              introduzidos pela LC nº 214/2025.
-            </p>
-            <p>
-              No texto a seguir, apresenta-se as principais inovações
-              introduzidas para as MPEs optantes pelo regime Simples Nacional.
-            </p>
-            <h4>2. Opção pelo regime regular do IBS/CBS</h4>
-            <p>
-              Uma das alterações principais foi a possibilidade de o
-              contribuinte optante pelo Simples Nacional escolher
-              semestralmente, pela apuração do IBS e da CBS pelo regime regular,
-              isto é, fora do regime unificado. Isso representa uma medida
-              inédita de flexibilização, permitindo que as Microempresas (ME) e
-              Empresas de Pequeno Porte (EPP) comparem vantagens entre a carga
-              tributária do Simples Nacional com o IBS e a CBS e a apuração
-              desses tributos fora do regime Simples, ou seja, pelo sistema não
-              cumulativo do IVA dual. Neste aspecto, cabe a cada empresa fazer
-              uma análise individual dessa, se for o caso, vantagem comparativa,
-              considerando a sua posição na cadeia econômica (fornecedores e
-              clientes), a margem de valor adicional, a questão concorrencial e
-              seu tipo de negócio.
-            </p>
-            <p>
-              Entretanto, tal opção não é irrestrita. A LC nº 214/2025 veda a
-              mudança para o regime unificado por dois anos consecutivos caso o
-              contribuinte tenha solicitado ressarcimento de créditos de bens de
-              capital no regime regular.
-            </p>
-            <h4>3. Créditos para adquirentes do regime regular</h4>
-            <p>
-              O aproveitamento dos créditos de IBS/CBS deve ser considerado
-              tanto na opção pelo regime Simples Nacional (no qual vigora o
-              regime de cumulatividade), quanto pela escolha (dentro daquela
-              opção) pela apuração do IBS/CBS pelo regime regular (fora do SN).
-              Desse modo, ao optar pela adesão anual ao Simples Nacional, a
-              empresa não poderá aproveitar os créditos de seus fornecedores,
-              transferindo o crédito ao adquirente, sendo este limitado ao valor
-              de IBS/CBS apurado no regime simplificado.
-            </p>
-            <p>
-              Se a opção for apurar por fora o IBS/CBS do Simples Nacional, a
-              apuração desses tributos pelo regime regular deverá tanto
-              aproveitar como transferir os créditos desses tributos aos demais
-              contribuintes do regime regular. Neste caso, o princípio da não
-              cumulatividade plena deve ser a prática usual.
-            </p>
-            <h4>
-              4. Crédito e débito do Simples Nacional na Reforma Tributária
-            </h4>
-            <p>
-              Com a vigência da EC 132/2023 e da LC 214/2025, o Simples Nacional
-              passa a contemplar a apuração de IBS e CBS, com regras específicas
-              para o crédito e débito desses tributos. O regime unificado do
-              Simples Nacional mantém o princípio da cumulatividade, ou seja,
-              não há aproveitamento de créditos de IBS/CBS por parte do
-              contribuinte optante. O valor do tributo é calculado com base na
-              receita bruta, sem possibilidade de compensação com créditos
-              fiscais.
-            </p>
-            <p>
-              No entanto, para empresas que optam pelo regime regular de IBS/CBS
-              (fora do Simples Nacional), é permitido o crédito de IBS/CBS sobre
-              bens e serviços adquiridos, desde que atendidos os requisitos
-              legais. O crédito pode ser utilizado para compensar débitos do
-              mesmo tributo, respeitando as regras de não cumulatividade e as
-              condições previstas na LC 214/2025.
-            </p>
-            <p>
-              O débito do IBS/CBS, por sua vez, deve ser destacado na
-              escrituração fiscal e no documento fiscal, conforme exigido pela
-              Receita Federal. O contribuinte deve observar o prazo de apuração
-              e recolhimento, bem como as regras de exclusão e enquadramento no
-              Simples Nacional, especialmente em relação à ultrapassagem dos
-              limites e sublimites.
-            </p>
-            <h4>5. Ampliação do conceito de Receita Bruta</h4>
-            <p>
-              Vigora a partir de 1º de janeiro de 2025 o novo o conceito de
-              Receita Bruta, que dispõe: "Considera-se receita bruta, para fins
-              do disposto no caput, o produto da venda de bens e serviços nas
-              operações de conta própria, o preço dos serviços prestados, o
-              resultado nas operações em conta alheia e as demais receitas da
-              atividade ou objeto principal das microempresas ou das empresas de
-              pequeno porte, não incluídas as vendas canceladas e os descontos
-              incondicionais concedidos." (§ 1º, art. 3º, Lei Complementar nº
-              123, de 2006). As "demais receitas" de atividades relacionadas à
-              atividade principal da MPE podem incluir, por exemplo, juros sobre
-              inadimplência e comissões.
-            </p>
-            <p>
-              O conceito de receita bruta também foi ampliado para incluir, além
-              do resultado das operações tradicionais (receita de venda de bens,
-              de prestação de serviços, etc), as receitas com bens materiais,
-              imateriais, inclusive direitos. Essa ampliação será especialmente
-              relevante com a vigência plena do IBS/CBS a partir de 2027.
-            </p>
-            <h4>6. Multa por atraso na entrega do PGDAS-D</h4>
-            <p>
-              A contagem do prazo em que o contribuinte do Simples incorre em
-              multa por atraso pela não entrega da declaração mediante
-              preenchimento do formulário eletrônico do PGDAS-D começa a partir
-              do dia seguinte ao vencimento do prazo de entrega (transmissão).
-              Desse modo a multa pode ser lançada a partir de vencido o prazo. A
-              nova regra vale a partir de janeiro de 2025 (art. 38-A, I, da LC
-              123/2006 com redação do art. 516 da LC 214, de 2025).
-            </p>
-            <p>
-              Antes, a contagem do prazo para o lançamento da multa iniciava-se
-              no 1º dia do quarto mês do ano seguinte à ocorrência da obrigação.
-            </p>
-            <h4>7. Nova sistemática de contagem das receitas</h4>
-            <p>
-              A LC nº 214/2025 introduziu norma (no caso, o §19 ao art. 3º da LC
-              123/2006) que determina a soma das receitas brutas de todas as
-              inscrições do mesmo contribuinte, inclusive quando atuarem como
-              Microempreendedor Individual (MEI) ou em outros CNPJs da mesma
-              pessoa física, no mesmo ano-calendário. Esta regra coíbe práticas
-              de elisão fiscal por fragmentação de CNPJs e exige maior atenção
-              dos contribuintes quanto à gestão empresarial.
-            </p>
-            <p>
-              Neste caso, ao fazer a opção pelo Simples Nacional, o empresário
-              deve considerar que as eventuais receitas dos sócios, como
-              contribuinte individual, podem compor o total da receita bruta da
-              MPE da qual ele seja sócio. Noutro exemplo, se o Microempresário
-              encerrar a atividade no início do ano e abrir outra inscrição
-              nesse mesmo ano calendário, as receitas de ambas as empresas serão
-              somadas para fins de receita bruta do ano-calendário.
-            </p>
-            <h4>8. Período de cálculo para o RBT-12 e do Fator R</h4>
-            <p>
-              A partir de 2027, a forma de calcular a receita bruta acumulada
-              dos últimos 12 meses (RBT-12) deve ser alterada. Com a LC nº
-              214/2025, o cálculo considerará os 12 meses anteriores ao mês
-              antecedente ao da apuração. Para entender melhor, veja o exemplo a
-              seguir:
-            </p>
-            <ul>
-              <li>
-                <strong>Cálculo atual:</strong> para calcular o imposto de
-                janeiro de 2026, considera-se a receita de janeiro de 2025 até
-                dezembro de 2025.
-              </li>
-              <li>
-                <strong>Cálculo a partir de 2027:</strong> para calcular o
-                imposto de fevereiro de 2027, deve-se considerar a receita de
-                janeiro de 2026 até dezembro de 2026.
-              </li>
-            </ul>
-            <p>
-              Desta forma, o contribuinte poderá ter uma melhor clareza ao
-              calcular o valor do tributo destacado no documento fiscal no caso
-              de o valors do IBS/CBS apurado dentro do Simples. Esse alargamento
-              do cálculo do RBT-12 também influenciará no cálculo do Fator R,
-              bem como dará ao contribuinte uma melhor capacidade de
-              previsibilidade quanto for decidir se opta, semestralmente, por
-              apurar o IBS/CBS pelo regime regular (por fora).
-            </p>
-            <h4>9. Alterações dos Limites e Sublimites pelo LC nº 214/2025</h4>
-            <p>
-              A LC 214/2025 não alterou os valores nominais dos limites e
-              sublimites para fins de enquadramento, que continuam, em termos
-              gerais, sendo:
-            </p>
-            <ul>
-              <li>
-                <strong>Limite federal para opção:</strong> R$ 4,8 milhões de
-                receita bruta anual (art. 3º, §4º da LC 123/2006).
-              </li>
-              <li>
-                <strong
-                  >Sublimite estadual para efeitos de recolhimento do ICMS e ISS
-                  pelo Simples:</strong
-                >
-                R$ 3,6 milhões (definido por Estados por meio de resolução do
-                CGSN, conforme art. 19, §1º da LC 123).
-              </li>
-            </ul>
-            <p>
-              A LC 214/2025 trouxe normas transitórias de adaptação do Simples
-              Nacional ao novo sistema de tributação sobre o consumo (IBS e
-              CBS), inclusive regras de partilha e recolhimento.
-            </p>
-            <p>
-              Portanto, os limites e sublimites continuam sendo os mesmos na
-              fase de transição, os quais serão proporcionalizados à medida que
-              os atuais (ICMS e ISS) forem sendo extintos e o novo (IBS) passar
-              começar a vigorar.
-            </p>
-            <h4>
-              10. Ultrapassagem dos sublimites ou limites com a Reforma
-              Tributária
-            </h4>
-            <p>
-              O novo sistema (CBS e IBS) não eliminou as regras atuais de
-              exclusão do Simples Nacional por excesso de receita, que continuam
-              vigentes:
-            </p>
-            <h5
-              style="
+        <div class="news-date">
+          Publicado em 28 de Outubro de 2025 - 01:47
+        </div>
+      </div>
+      <div aria-hidden="true" class="news-content" id="news-1">
+        <div class="news-content-inner">
+          <p>
+            A Secretaria Municipal da Fazenda informa que, em decorrência da
+            Emenda Constitucional nº 132, de 20 de dezembro de 2023, foi
+            instituída a Reforma Tributária do Consumo, cujas diretrizes foram
+            regulamentadas pela Lei Complementar nº 214, de 16 de janeiro de
+            2025.
+          </p>
+          <p>
+            Essa lei estabelece profundas alterações no sistema tributário
+            nacional, entre elas a criação do Imposto sobre Bens e Serviços
+            (IBS), de competência compartilhada entre Estados, Distrito
+            Federal e Municípios. O novo imposto passará a incidir a partir de
+            1º de janeiro de 2026, substituindo gradualmente o Imposto sobre
+            Serviços de Qualquer Natureza (ISSQN), que será extinto até o
+            exercício de 2033.
+          </p>
+          <h4>Adequação dos Sistemas de Emissão Fiscal</h4>
+          <p>
+            De acordo com o artigo 62 da referida Lei Complementar, os
+            Municípios deverão optar entre as seguintes alternativas:
+          </p>
+          <ul>
+            <li>
+              Adequar os sistemas próprios de autorização e emissão de
+              documentos fiscais eletrônicos, de forma a permitir o uso de
+              layout padronizado com campos específicos para IBS e CBS; ou
+            </li>
+            <li>
+              Autorizar os contribuintes locais a emitir a Nota Fiscal de
+              Serviços Eletrônica (NFS-e) de padrão nacional, por meio do
+              Ambiente Nacional da NFS-e.
+            </li>
+          </ul>
+          <p>
+            A Superintendência de Rendas Mobiliárias encontra-se em fase de
+            avaliação técnica para definir a melhor alternativa a ser adotada
+            pelo Município, considerando a viabilidade operacional e o impacto
+            junto aos prestadores de serviços.
+          </p>
+          <p>
+            Todos os contribuintes serão formalmente comunicados da decisão
+            final, com antecedência suficiente para a realização das
+            adaptações necessárias em seus sistemas de emissão.
+          </p>
+          <h4>Padrão Nacional e Documentação Técnica</h4>
+          <p>
+            O sistema municipal de emissão está sendo preparado para o padrão
+            nacional de documento fiscal eletrônico, conforme estabelecido
+            pela Resolução CFNFS-e nº 03, de 30 de agosto de 2023, e pela Nota
+            Técnica SE/CGNFS-e nº 003, de 4 de julho de 2025,
+            independentemente da opção municipal.
+          </p>
+          <p>
+            Os prestadores de serviços devem promover as adaptações técnicas
+            exigidas para adequar seus emissores de NFS-e ao novo layout
+            nacional.<br />
+            Toda a documentação técnica necessária encontra-se disponível no
+            Portal Nacional da NFS-e, acessível em:
+            <a href="https://www.gov.br/nfse/pt-br/biblioteca/documentacao-tecnica" rel="noopener noreferrer"
+              target="_blank">https://www.gov.br/nfse/pt-br/biblioteca/documentacao-tecnica</a>
+          </p>
+          <p>
+            Recomenda-se que os responsáveis por sistemas de Tecnologia da
+            Informação (TI) consultem essa documentação e realizem as
+            atualizações cabíveis.<br />
+            Nos casos em que o sistema emissor seja fornecido por empresa
+            terceirizada, é essencial que o contribuinte solicite a
+            atualização do software ao seu respectivo fornecedor.
+          </p>
+          <h4>Prazos e Obrigatoriedade</h4>
+          <p>
+            A partir de 1º de janeiro de 2026, todos os contribuintes
+            prestadores de serviços estarão obrigados a emitir a Nota Fiscal
+            de Serviços Eletrônica (NFS-e) no padrão nacional, a exemplo do
+            que já ocorre com os Microempreendedores Individuais (MEI).
+          </p>
+          <p style="text-align: right; font-style: italic; margin-top: 20px">
+            Secretaria Municipal da Fazenda<br />
+            Prefeitura de Sete Lagoas<br />
+            Compromisso com a modernização fiscal e a transparência
+            tributária.
+          </p>
+        </div>
+      </div>
+    </div>
+    <!-- FIM COMUNNICADO -->
+    <!-- INÍCIO: Artigo Simples Nacional (Gerado) -->
+    <div class="news-item has-ticket" data-kind="artigo">
+      <span class="ticket ticket--news">Artigo</span>
+      <div class="news-header">
+        <h3>
+          Alterações introduzidas pela Reforma Tributária no Simples Nacional
+        </h3>
+        <div class="news-icon">
+          <i aria-hidden="true" class="fas fa-chevron-down"></i>
+        </div>
+        <div class="news-date">
+          Publicado em 28 de outubro de 2025 — 18:00
+        </div>
+      </div>
+      <div aria-hidden="true" class="news-content" id="sn-reforma">
+        <div class="news-content-inner">
+          <h4>1. Introdução</h4>
+          <p>
+            A Emenda Constitucional (EC) nº 132/2023 instituiu o novo modelo
+            tributário baseado na incidência do Imposto sobre Bens e Serviços
+            (IBS) e da Contribuição sobre Bens e Serviços (CBS), o que
+            representou uma mudança significativa no sistema de tributação
+            sobre o consumo no Brasil. Como parte desse novo modelo normativo,
+            a Lei Complementar nº 214/2025, que regulamenta a EC 132/2023,
+            promoveu alterações substanciais na Lei Complementar nº 123/2006,
+            reorganizando aspectos estruturais do Simples Nacional (SN).
+          </p>
+          <p>
+            A Lei Complementar 214/2025 não apenas incluiu as mudanças
+            decorrentes do novo modelo tributário, como também realizou outras
+            modificações que vão além da reforma, tal como o novo conceito de
+            receita bruta. Desta forma, o presente artigo envolve não apenas
+            as alterações da Lei Geral do Simples Nacional no escopo da
+            Reforma Tributária, mas também as modificações relevantes do
+            regime unificado de tributação das Micro e Pequenas Empresas (MPE)
+            introduzidos pela LC nº 214/2025.
+          </p>
+          <p>
+            No texto a seguir, apresenta-se as principais inovações
+            introduzidas para as MPEs optantes pelo regime Simples Nacional.
+          </p>
+          <h4>2. Opção pelo regime regular do IBS/CBS</h4>
+          <p>
+            Uma das alterações principais foi a possibilidade de o
+            contribuinte optante pelo Simples Nacional escolher
+            semestralmente, pela apuração do IBS e da CBS pelo regime regular,
+            isto é, fora do regime unificado. Isso representa uma medida
+            inédita de flexibilização, permitindo que as Microempresas (ME) e
+            Empresas de Pequeno Porte (EPP) comparem vantagens entre a carga
+            tributária do Simples Nacional com o IBS e a CBS e a apuração
+            desses tributos fora do regime Simples, ou seja, pelo sistema não
+            cumulativo do IVA dual. Neste aspecto, cabe a cada empresa fazer
+            uma análise individual dessa, se for o caso, vantagem comparativa,
+            considerando a sua posição na cadeia econômica (fornecedores e
+            clientes), a margem de valor adicional, a questão concorrencial e
+            seu tipo de negócio.
+          </p>
+          <p>
+            Entretanto, tal opção não é irrestrita. A LC nº 214/2025 veda a
+            mudança para o regime unificado por dois anos consecutivos caso o
+            contribuinte tenha solicitado ressarcimento de créditos de bens de
+            capital no regime regular.
+          </p>
+          <h4>3. Créditos para adquirentes do regime regular</h4>
+          <p>
+            O aproveitamento dos créditos de IBS/CBS deve ser considerado
+            tanto na opção pelo regime Simples Nacional (no qual vigora o
+            regime de cumulatividade), quanto pela escolha (dentro daquela
+            opção) pela apuração do IBS/CBS pelo regime regular (fora do SN).
+            Desse modo, ao optar pela adesão anual ao Simples Nacional, a
+            empresa não poderá aproveitar os créditos de seus fornecedores,
+            transferindo o crédito ao adquirente, sendo este limitado ao valor
+            de IBS/CBS apurado no regime simplificado.
+          </p>
+          <p>
+            Se a opção for apurar por fora o IBS/CBS do Simples Nacional, a
+            apuração desses tributos pelo regime regular deverá tanto
+            aproveitar como transferir os créditos desses tributos aos demais
+            contribuintes do regime regular. Neste caso, o princípio da não
+            cumulatividade plena deve ser a prática usual.
+          </p>
+          <h4>
+            4. Crédito e débito do Simples Nacional na Reforma Tributária
+          </h4>
+          <p>
+            Com a vigência da EC 132/2023 e da LC 214/2025, o Simples Nacional
+            passa a contemplar a apuração de IBS e CBS, com regras específicas
+            para o crédito e débito desses tributos. O regime unificado do
+            Simples Nacional mantém o princípio da cumulatividade, ou seja,
+            não há aproveitamento de créditos de IBS/CBS por parte do
+            contribuinte optante. O valor do tributo é calculado com base na
+            receita bruta, sem possibilidade de compensação com créditos
+            fiscais.
+          </p>
+          <p>
+            No entanto, para empresas que optam pelo regime regular de IBS/CBS
+            (fora do Simples Nacional), é permitido o crédito de IBS/CBS sobre
+            bens e serviços adquiridos, desde que atendidos os requisitos
+            legais. O crédito pode ser utilizado para compensar débitos do
+            mesmo tributo, respeitando as regras de não cumulatividade e as
+            condições previstas na LC 214/2025.
+          </p>
+          <p>
+            O débito do IBS/CBS, por sua vez, deve ser destacado na
+            escrituração fiscal e no documento fiscal, conforme exigido pela
+            Receita Federal. O contribuinte deve observar o prazo de apuração
+            e recolhimento, bem como as regras de exclusão e enquadramento no
+            Simples Nacional, especialmente em relação à ultrapassagem dos
+            limites e sublimites.
+          </p>
+          <h4>5. Ampliação do conceito de Receita Bruta</h4>
+          <p>
+            Vigora a partir de 1º de janeiro de 2025 o novo o conceito de
+            Receita Bruta, que dispõe: "Considera-se receita bruta, para fins
+            do disposto no caput, o produto da venda de bens e serviços nas
+            operações de conta própria, o preço dos serviços prestados, o
+            resultado nas operações em conta alheia e as demais receitas da
+            atividade ou objeto principal das microempresas ou das empresas de
+            pequeno porte, não incluídas as vendas canceladas e os descontos
+            incondicionais concedidos." (§ 1º, art. 3º, Lei Complementar nº
+            123, de 2006). As "demais receitas" de atividades relacionadas à
+            atividade principal da MPE podem incluir, por exemplo, juros sobre
+            inadimplência e comissões.
+          </p>
+          <p>
+            O conceito de receita bruta também foi ampliado para incluir, além
+            do resultado das operações tradicionais (receita de venda de bens,
+            de prestação de serviços, etc), as receitas com bens materiais,
+            imateriais, inclusive direitos. Essa ampliação será especialmente
+            relevante com a vigência plena do IBS/CBS a partir de 2027.
+          </p>
+          <h4>6. Multa por atraso na entrega do PGDAS-D</h4>
+          <p>
+            A contagem do prazo em que o contribuinte do Simples incorre em
+            multa por atraso pela não entrega da declaração mediante
+            preenchimento do formulário eletrônico do PGDAS-D começa a partir
+            do dia seguinte ao vencimento do prazo de entrega (transmissão).
+            Desse modo a multa pode ser lançada a partir de vencido o prazo. A
+            nova regra vale a partir de janeiro de 2025 (art. 38-A, I, da LC
+            123/2006 com redação do art. 516 da LC 214, de 2025).
+          </p>
+          <p>
+            Antes, a contagem do prazo para o lançamento da multa iniciava-se
+            no 1º dia do quarto mês do ano seguinte à ocorrência da obrigação.
+          </p>
+          <h4>7. Nova sistemática de contagem das receitas</h4>
+          <p>
+            A LC nº 214/2025 introduziu norma (no caso, o §19 ao art. 3º da LC
+            123/2006) que determina a soma das receitas brutas de todas as
+            inscrições do mesmo contribuinte, inclusive quando atuarem como
+            Microempreendedor Individual (MEI) ou em outros CNPJs da mesma
+            pessoa física, no mesmo ano-calendário. Esta regra coíbe práticas
+            de elisão fiscal por fragmentação de CNPJs e exige maior atenção
+            dos contribuintes quanto à gestão empresarial.
+          </p>
+          <p>
+            Neste caso, ao fazer a opção pelo Simples Nacional, o empresário
+            deve considerar que as eventuais receitas dos sócios, como
+            contribuinte individual, podem compor o total da receita bruta da
+            MPE da qual ele seja sócio. Noutro exemplo, se o Microempresário
+            encerrar a atividade no início do ano e abrir outra inscrição
+            nesse mesmo ano calendário, as receitas de ambas as empresas serão
+            somadas para fins de receita bruta do ano-calendário.
+          </p>
+          <h4>8. Período de cálculo para o RBT-12 e do Fator R</h4>
+          <p>
+            A partir de 2027, a forma de calcular a receita bruta acumulada
+            dos últimos 12 meses (RBT-12) deve ser alterada. Com a LC nº
+            214/2025, o cálculo considerará os 12 meses anteriores ao mês
+            antecedente ao da apuração. Para entender melhor, veja o exemplo a
+            seguir:
+          </p>
+          <ul>
+            <li>
+              <strong>Cálculo atual:</strong> para calcular o imposto de
+              janeiro de 2026, considera-se a receita de janeiro de 2025 até
+              dezembro de 2025.
+            </li>
+            <li>
+              <strong>Cálculo a partir de 2027:</strong> para calcular o
+              imposto de fevereiro de 2027, deve-se considerar a receita de
+              janeiro de 2026 até dezembro de 2026.
+            </li>
+          </ul>
+          <p>
+            Desta forma, o contribuinte poderá ter uma melhor clareza ao
+            calcular o valor do tributo destacado no documento fiscal no caso
+            de o valors do IBS/CBS apurado dentro do Simples. Esse alargamento
+            do cálculo do RBT-12 também influenciará no cálculo do Fator R,
+            bem como dará ao contribuinte uma melhor capacidade de
+            previsibilidade quanto for decidir se opta, semestralmente, por
+            apurar o IBS/CBS pelo regime regular (por fora).
+          </p>
+          <h4>9. Alterações dos Limites e Sublimites pelo LC nº 214/2025</h4>
+          <p>
+            A LC 214/2025 não alterou os valores nominais dos limites e
+            sublimites para fins de enquadramento, que continuam, em termos
+            gerais, sendo:
+          </p>
+          <ul>
+            <li>
+              <strong>Limite federal para opção:</strong> R$ 4,8 milhões de
+              receita bruta anual (art. 3º, §4º da LC 123/2006).
+            </li>
+            <li>
+              <strong>Sublimite estadual para efeitos de recolhimento do ICMS e ISS
+                pelo Simples:</strong>
+              R$ 3,6 milhões (definido por Estados por meio de resolução do
+              CGSN, conforme art. 19, §1º da LC 123).
+            </li>
+          </ul>
+          <p>
+            A LC 214/2025 trouxe normas transitórias de adaptação do Simples
+            Nacional ao novo sistema de tributação sobre o consumo (IBS e
+            CBS), inclusive regras de partilha e recolhimento.
+          </p>
+          <p>
+            Portanto, os limites e sublimites continuam sendo os mesmos na
+            fase de transição, os quais serão proporcionalizados à medida que
+            os atuais (ICMS e ISS) forem sendo extintos e o novo (IBS) passar
+            começar a vigorar.
+          </p>
+          <h4>
+            10. Ultrapassagem dos sublimites ou limites com a Reforma
+            Tributária
+          </h4>
+          <p>
+            O novo sistema (CBS e IBS) não eliminou as regras atuais de
+            exclusão do Simples Nacional por excesso de receita, que continuam
+            vigentes:
+          </p>
+          <h5 style="
                 font-weight: 700;
                 margin-top: 15px;
                 margin-bottom: 5px;
                 color: #111;
-              "
-            >
-              a) Ultrapassagem do sublimite (ICMS/ISS) – R$ 3,6 milhões
-            </h5>
-            <p>
-              A empresa permanece no Simples para tributos federais, mas passa a
-              recolher ICMS e ISS fora do Simples Nacional a partir do ano
-              seguinte (regra do art. 19, §1º e §2º da LC 123).
-            </p>
-            <p>
-              Com a Reforma, o IBS substitui ICMS e ISS. Assim, ao ultrapassar o
-              sublimite, o contribuinte passará a apurar e recolher IBS fora do
-              Regime Simplificado.
-            </p>
-            <h5
-              style="
+              ">
+            a) Ultrapassagem do sublimite (ICMS/ISS) – R$ 3,6 milhões
+          </h5>
+          <p>
+            A empresa permanece no Simples para tributos federais, mas passa a
+            recolher ICMS e ISS fora do Simples Nacional a partir do ano
+            seguinte (regra do art. 19, §1º e §2º da LC 123).
+          </p>
+          <p>
+            Com a Reforma, o IBS substitui ICMS e ISS. Assim, ao ultrapassar o
+            sublimite, o contribuinte passará a apurar e recolher IBS fora do
+            Regime Simplificado.
+          </p>
+          <h5 style="
                 font-weight: 700;
                 margin-top: 15px;
                 margin-bottom: 5px;
                 color: #111;
-              "
-            >
-              b) Ultrapassagem do limite (R$ 4,8 milhões)
-            </h5>
+              ">
+            b) Ultrapassagem do limite (R$ 4,8 milhões)
+          </h5>
+          <p>
+            Exclusão do Simples Nacional: a empresa deve ser desenquadrada e
+            passa a adotar o regime de apuração normal (Lucro Presumido ou
+            Lucro Real) a partir do ano-calendário subsequente, ou
+            imediatamente se o excesso for superior a 20%.
+          </p>
+          <p>
+            Com a Reforma, após a exclusão, a empresa passará a recolher
+            diretamente o CBS e IBS pelo regime regular previsto na LC 214, de
+            2025.
+          </p>
+          <h4>11. Prazo de opção pelo Simples Nacional</h4>
+          <p>
+            O prazo para a opção anual pelo Simples Nacional (que no regime
+            vigente é até o último dia de janeiro, com efeitos retroativos ao
+            dia 1º desse mês) também foi alterado: agora deverá ser feita até
+            o último dia útil de setembro do ano anterior ao da opção,
+            produzindo efeitos no exercício seguinte. Desta forma, em setembro
+            de 2026, o contribuinte deve fazer a opção pelo Simples Nacional
+            com validade para o ano calendário de 2027.
+          </p>
+          <p>
+            Este prazo não se confunde com o prazo semestral de opção da MPE
+            em aderir ao regime regular do IBS/CBS, mediante o qual o
+            contribuinte deve fazer esta adesão nos meses de setembro e abril.
+          </p>
+          <h4>12. Cumulatividade e posicionamento na cadeia</h4>
+          <p>
+            A reforma não alterou a sistemática unificada do Simples quanto à
+            impossibilidade de apropriação de créditos (efeito cumulativo dos
+            tributos). Contudo, ao autorizar o creditamento ao adquirente do
+            regime regular, a nova legislação reduz o efeito cumulativo
+            indireto para as empresas não optantes do Simples Nacional e
+            favorece a competitividade das optantes que atuam em elos
+            anteriores da cadeia econômica. Ocorre que a posição do
+            contribuinte no fluxo comercial, como por exemplo, o varejo (em
+            que o consumidor final não aproveita crédito) será um elemento
+            diferenciador da opção ou não pela adesão ao IBS/CBS dentro do
+            Simples Nacional.
+          </p>
+          <!-- Continuação: Créditos/Débitos e Regras de Compensação -->
+          <div class="news-content-extended">
+            <h4>13. Regras de Compensação e Ressarcimento</h4>
             <p>
-              Exclusão do Simples Nacional: a empresa deve ser desenquadrada e
-              passa a adotar o regime de apuração normal (Lucro Presumido ou
-              Lucro Real) a partir do ano-calendário subsequente, ou
-              imediatamente se o excesso for superior a 20%.
+              A LC 214/2025 introduziu no Simples Nacional a sistemática de
+              compensação limitada de créditos de IBS e CBS, vinculada à
+              apuração segregada efetuada por ME ou EPP que optem pelo regime
+              regular. Segundo o art. 281 da LC 214/2025, o crédito acumulado
+              poderá ser abatido de débitos futuros ou objeto de pedido de
+              ressarcimento, respeitada a regulamentação da Receita Federal no
+              caso da CBS e do Comitê Gestor do IBS no caso do imposto
+              compartilhado.
             </p>
             <p>
-              Com a Reforma, após a exclusão, a empresa passará a recolher
-              diretamente o CBS e IBS pelo regime regular previsto na LC 214, de
-              2025.
+              O registro desses créditos continua vedado para operações
+              apuradas dentro do regime unificado, mas são integralmente
+              reconhecidos quando a MPE opta pela apuração por fora, conforme
+              o princípio da não cumulatividade plena descrito na EC 132/2023,
+              art. 156-A, §§ 4º e 9º. O sistema eletrônico nacional de
+              compensação, divulgado pelo Ministério da Fazenda, funcionará de
+              forma integrada ao Portal Nacional da Reforma Tributária.
             </p>
-            <h4>11. Prazo de opção pelo Simples Nacional</h4>
+            <h4>14. IBS Municipal e Integração do Crédito entre Entes</h4>
             <p>
-              O prazo para a opção anual pelo Simples Nacional (que no regime
-              vigente é até o último dia de janeiro, com efeitos retroativos ao
-              dia 1º desse mês) também foi alterado: agora deverá ser feita até
-              o último dia útil de setembro do ano anterior ao da opção,
-              produzindo efeitos no exercício seguinte. Desta forma, em setembro
-              de 2026, o contribuinte deve fazer a opção pelo Simples Nacional
-              com validade para o ano calendário de 2027.
-            </p>
-            <p>
-              Este prazo não se confunde com o prazo semestral de opção da MPE
-              em aderir ao regime regular do IBS/CBS, mediante o qual o
-              contribuinte deve fazer esta adesão nos meses de setembro e abril.
-            </p>
-            <h4>12. Cumulatividade e posicionamento na cadeia</h4>
-            <p>
-              A reforma não alterou a sistemática unificada do Simples quanto à
-              impossibilidade de apropriação de créditos (efeito cumulativo dos
-              tributos). Contudo, ao autorizar o creditamento ao adquirente do
-              regime regular, a nova legislação reduz o efeito cumulativo
-              indireto para as empresas não optantes do Simples Nacional e
-              favorece a competitividade das optantes que atuam em elos
-              anteriores da cadeia econômica. Ocorre que a posição do
-              contribuinte no fluxo comercial, como por exemplo, o varejo (em
-              que o consumidor final não aproveita crédito) será um elemento
-              diferenciador da opção ou não pela adesão ao IBS/CBS dentro do
-              Simples Nacional.
-            </p>
-            <!-- Continuação: Créditos/Débitos e Regras de Compensação -->
-            <div class="news-content-extended">
-              <h4>13. Regras de Compensação e Ressarcimento</h4>
-              <p>
-                A LC 214/2025 introduziu no Simples Nacional a sistemática de
-                compensação limitada de créditos de IBS e CBS, vinculada à
-                apuração segregada efetuada por ME ou EPP que optem pelo regime
-                regular. Segundo o art. 281 da LC 214/2025, o crédito acumulado
-                poderá ser abatido de débitos futuros ou objeto de pedido de
-                ressarcimento, respeitada a regulamentação da Receita Federal no
-                caso da CBS e do Comitê Gestor do IBS no caso do imposto
-                compartilhado.
-              </p>
-              <p>
-                O registro desses créditos continua vedado para operações
-                apuradas dentro do regime unificado, mas são integralmente
-                reconhecidos quando a MPE opta pela apuração por fora, conforme
-                o princípio da não cumulatividade plena descrito na EC 132/2023,
-                art. 156-A, §§ 4º e 9º. O sistema eletrônico nacional de
-                compensação, divulgado pelo Ministério da Fazenda, funcionará de
-                forma integrada ao Portal Nacional da Reforma Tributária.
-              </p>
-              <h4>14. IBS Municipal e Integração do Crédito entre Entes</h4>
-              <p>
-                Durante o período de transição (2026 a 2032), os créditos de IBS
-                gerados nas operações com incidência municipal serão registrados
-                no e-CredIBS, conforme ato conjunto do Comitê Gestor do IBS e do
-                Comitê Gestor das Administrações Tributárias Municipais. As
-                microempresas e empresas de pequeno porte, mesmo com carga
-                unificada simplificada, deverão identificar em seus documentos
-                fiscais eletrônicos a origem municipal da operação, garantindo
-                rastreabilidade e repartição automática da arrecadação.
-              </p>
-              <p>
-                Essa integração permite a comunicação direta entre o portal do
-                Simples Nacional e o sistema do IBS-M, assegurando que os
-                adquirentes no regime regular possam abater os créditos
-                correspondentes sem duplicidade ou bitributação. As prefeituras
-                municipais, por sua vez, passam a ter acesso ao histórico de
-                geração e utilização de créditos conforme a base de dados
-                nacional.
-              </p>
-              <h4>15. Ajustes na Escrituração e Obrigações Acessórias</h4>
-              <p>
-                Conforme o art. 350 da LC 214/2025, a escrituração dos débitos e
-                créditos de IBS e CBS deverá ser feita por meio do ambiente
-                nacional de escrituração digital (e-SN), integrado ao SPED, com
-                campos específicos para informações segregadas de operações no
-                regime unificado e no regime regular. Para os contribuintes
-                exclusivamente do Simples Nacional, o preenchimento desses
-                campos é facultativo durante o período de adaptação de 2026.
-              </p>
-              <p>
-                A Receita Federal detalhou, em ato conjunto com os comitês de
-                gestão, que a apuração eletrônica automática dos créditos
-                transferíveis será feita com base nos documentos fiscais
-                transmitidos, dispensando o envio de declaração de créditos.
-                Isso confere transparência à apuração e reduz custos de
-                conformidade.
-              </p>
-              <h4>16. Tratamento de Débito Fiscal e Limites de Apropriação</h4>
-              <p>
-                Os débitos apurados no regime regular do Simples Nacional
-                observarão os percentuais fixos de IBS e CBS definidos na LC
-                214/2025, art. 315, de acordo com a faixa de receita e setor de
-                atividade. O contribuinte deverá destacar o débito
-                correspondente no documento fiscal eletrônico, mesmo quando o
-                destino for consumidor final.
-              </p>
-              <p>
-                A apropriação de créditos pelo adquirente é limitada ao montante
-                efetivamente recolhido pelo fornecedor no regime simplificado,
-                assegurada a dedutibilidade plena no regime regular (art. 346 e
-                § 2º da LC 214/2025). Não há crédito sobre receitas isentas, não
-                tributadas ou sujeitas à alíquota zero.
-              </p>
-              <h4>17. Normas Operacionais e Implementação</h4>
-              <p>
-                O Ministério da Fazenda, por meio do Comitê Gestor do Simples
-                Nacional (CGSN), publicará normas complementares sobre
-                operacionalização dos créditos e débitos de IBS e CBS no sistema
-                declaratório do PGDAS-D, que passará a ser adaptado para o
-                modelo dual de apuração. As instruções da Receita Federal e do
-                Comitê Gestor do IBS regulamentarão a integração tecnológica
-                entre os sistemas e os portais municipais.
-              </p>
-              <p>
-                Estes dispositivos têm como objetivo harmonizar a cobrança do
-                IBS e da CBS, assegurar a transparência entre os entes
-                federativos e preservar a simplificação do regime para micro e
-                pequenas empresas. Assim, o tratamento dos créditos e débitos no
-                Simples Nacional se alinha aos princípios da neutralidade e
-                eficiência fiscal estabelecidos na EC 132/2023.
-              </p>
-            </div>
-          </div>
-        </div>
-      </div>
-      <!-- FIM: Artigo Simples Nacional (Gerado) -->
-      <!-- INÍCIO: NOTÍCIA (Cashback) -->
-      <div class="news-item has-ticket" data-kind="artigo">
-        <span class="ticket ticket--news">Artigo</span>
-        <div class="news-header">
-          <h3>Cashback para população de baixa renda</h3>
-          <div aria-hidden="true" class="news-icon">
-            <i class="fas fa-chevron-down"></i>
-          </div>
-          <div class="news-date">28 de Outubro de 2025 — 19:00</div>
-        </div>
-        <div aria-hidden="true" class="news-content">
-          <div class="news-content-inner">
-            <p>
-              Uma novidade importante da reforma é o sistema de cashback de
-              impostos para famílias de baixa renda. Isso significa que parte do
-              imposto pago em compras de produtos essenciais poderá ser
-              devolvida para essas pessoas. Esse recurso volta para amenizar a
-              carga tributária sobre os mais vulneráveis, permitindo que eles
-              recuperem uma parte do valor pago em tributos.
+              Durante o período de transição (2026 a 2032), os créditos de IBS
+              gerados nas operações com incidência municipal serão registrados
+              no e-CredIBS, conforme ato conjunto do Comitê Gestor do IBS e do
+              Comitê Gestor das Administrações Tributárias Municipais. As
+              microempresas e empresas de pequeno porte, mesmo com carga
+              unificada simplificada, deverão identificar em seus documentos
+              fiscais eletrônicos a origem municipal da operação, garantindo
+              rastreabilidade e repartição automática da arrecadação.
             </p>
             <p>
-              Esse mecanismo será regulamentado por uma lei complementar e, em
-              produtos como gás de cozinha e contas de água e luz, haverá um
-              percentual mínimo de devolução garantido para os consumidores de
-              menor renda.
+              Essa integração permite a comunicação direta entre o portal do
+              Simples Nacional e o sistema do IBS-M, assegurando que os
+              adquirentes no regime regular possam abater os créditos
+              correspondentes sem duplicidade ou bitributação. As prefeituras
+              municipais, por sua vez, passam a ter acesso ao histórico de
+              geração e utilização de créditos conforme a base de dados
+              nacional.
+            </p>
+            <h4>15. Ajustes na Escrituração e Obrigações Acessórias</h4>
+            <p>
+              Conforme o art. 350 da LC 214/2025, a escrituração dos débitos e
+              créditos de IBS e CBS deverá ser feita por meio do ambiente
+              nacional de escrituração digital (e-SN), integrado ao SPED, com
+              campos específicos para informações segregadas de operações no
+              regime unificado e no regime regular. Para os contribuintes
+              exclusivamente do Simples Nacional, o preenchimento desses
+              campos é facultativo durante o período de adaptação de 2026.
             </p>
             <p>
-              Em termos práticos, o funcionamento do cashback será simples para
-              o consumidor. O valor do imposto devolvido será destacado para que
-              as famílias saibam quanto estão recuperando de seus gastos com
-              tributos. Dessa forma, o governo garante que o benefício do
-              cashback seja claro e direto.
+              A Receita Federal detalhou, em ato conjunto com os comitês de
+              gestão, que a apuração eletrônica automática dos créditos
+              transferíveis será feita com base nos documentos fiscais
+              transmitidos, dispensando o envio de declaração de créditos.
+              Isso confere transparência à apuração e reduz custos de
+              conformidade.
+            </p>
+            <h4>16. Tratamento de Débito Fiscal e Limites de Apropriação</h4>
+            <p>
+              Os débitos apurados no regime regular do Simples Nacional
+              observarão os percentuais fixos de IBS e CBS definidos na LC
+              214/2025, art. 315, de acordo com a faixa de receita e setor de
+              atividade. O contribuinte deverá destacar o débito
+              correspondente no documento fiscal eletrônico, mesmo quando o
+              destino for consumidor final.
             </p>
             <p>
-              Essa medida também ajuda a combater a regressividade do sistema,
-              que é quando os tributos pesam mais para quem tem menos. Com o
-              cashback, a reforma não só busca tornar os impostos mais justos,
-              mas também oferece um alívio prático para o dia a dia das famílias
-              de menor renda.
+              A apropriação de créditos pelo adquirente é limitada ao montante
+              efetivamente recolhido pelo fornecedor no regime simplificado,
+              assegurada a dedutibilidade plena no regime regular (art. 346 e
+              § 2º da LC 214/2025). Não há crédito sobre receitas isentas, não
+              tributadas ou sujeitas à alíquota zero.
+            </p>
+            <h4>17. Normas Operacionais e Implementação</h4>
+            <p>
+              O Ministério da Fazenda, por meio do Comitê Gestor do Simples
+              Nacional (CGSN), publicará normas complementares sobre
+              operacionalização dos créditos e débitos de IBS e CBS no sistema
+              declaratório do PGDAS-D, que passará a ser adaptado para o
+              modelo dual de apuração. As instruções da Receita Federal e do
+              Comitê Gestor do IBS regulamentarão a integração tecnológica
+              entre os sistemas e os portais municipais.
+            </p>
+            <p>
+              Estes dispositivos têm como objetivo harmonizar a cobrança do
+              IBS e da CBS, assegurar a transparência entre os entes
+              federativos e preservar a simplificação do regime para micro e
+              pequenas empresas. Assim, o tratamento dos créditos e débitos no
+              Simples Nacional se alinha aos princípios da neutralidade e
+              eficiência fiscal estabelecidos na EC 132/2023.
             </p>
           </div>
         </div>
       </div>
-      <!-- FIM: NOTÍCIA (Cashback) -->
-      <!-- NOTÍCIA 1-->
-      <div class="news-item has-ticket" data-kind="news">
-        <span class="ticket ticket--news">Artigo</span>
-        <div class="news-header">
-          <h3>As mudanças dos Documentos Fiscais Eletrônicos (DF-e)</h3>
-          <div class="news-icon">
-            <i aria-hidden="true" class="fas fa-chevron-down"></i>
-          </div>
-          <div class="news-date">
-            Publicado em 28 de outubro de 2025 — 15:00
-          </div>
+    </div>
+    <!-- FIM: Artigo Simples Nacional (Gerado) -->
+    <!-- INÍCIO: NOTÍCIA (Cashback) -->
+    <div class="news-item has-ticket" data-kind="artigo">
+      <span class="ticket ticket--news">Artigo</span>
+      <div class="news-header">
+        <h3>Cashback para população de baixa renda</h3>
+        <div aria-hidden="true" class="news-icon">
+          <i class="fas fa-chevron-down"></i>
         </div>
-        <div aria-hidden="true" class="news-content" id="dfe-noticia">
-          <div class="news-content-inner">
-            <p>
-              Com a reforma tributária do consumo, os documentos fiscais
-              eletrônicos passam a se adequar aos novos tributos — Imposto sobre
-              Bens e Serviços (IBS), Contribuição Social sobre Bens e Serviços
-              (CBS) e Imposto Seletivo (IS). Para prestadores de serviços, a
-              principal mudança é a
-              <strong
-                >Nota Fiscal de Serviço Eletrônica (NFS-e) em padrão nacional
-                obrigatório a partir de janeiro de 2026</strong
-              >. Consulte também a
-              <a
-                href="https://www.planalto.gov.br/ccivil_03/constituicao/emendas/emc/emc132.htm"
-                rel="noopener noreferrer"
-                target="_blank"
-                >Emenda Constitucional 132/2023</a
-              >
-              e a
-              <a
-                href="https://www.gov.br/nfse/pt-br/biblioteca/documentacao-tecnica"
-                rel="noopener noreferrer"
-                target="_blank"
-                >biblioteca técnica da NFS-e (gov.br)</a
-              >.
-            </p>
-            <h4>Obrigatoriedade e caráter declaratório</h4>
-            <p>
-              De acordo com o art. 60 da
-              <strong>Lei Complementar nº 214/2025</strong>, o sujeito passivo
-              do IBS e da CBS, ao realizar operações com bens ou serviços,
-              <strong>deve emitir documento fiscal eletrônico</strong>. As
-              informações prestadas possuem caráter declaratório e
-              <strong>constituem confissão do valor devido</strong> de IBS e CBS
-              consignados no documento fiscal.
-            </p>
-            <p>
-              A emissão é obrigatória mesmo em operações imunes, isentas, com
-              alíquota zero, suspensas, ou em transferências de bens entre
-              estabelecimentos do mesmo contribuinte; a inexistência da
-              obrigação principal não dispensa a obrigação acessória (art. 60,
-              §2º). Essa confissão viabiliza procedimentos como o
-              <em>split payment</em> na liquidação financeira. A forma, conteúdo
-              e prazos observarão ato conjunto do Comitê Gestor do IBS e da
-              Receita Federal do Brasil (RFB). Os DF-e deverão ser
-              compartilhados com todos os entes no momento da
-              autorização/recepção, utilizando padrões técnicos uniformes.
-            </p>
-            <h4>1) Adaptações nos atuais DF-e</h4>
-            <p>
-              O
-              <a
-                href="https://www.gov.br/confaz/pt-br/assuntos/atos/ajustes/2024/ajuste-sinief-24-2024"
-                rel="noopener noreferrer"
-                target="_blank"
-                >Ajuste SINIEF nº 24/2024</a
-              >
-              padroniza campos para registro de IBS, CBS e IS em documentos como
-              NF-e, CT-e, NFC-e, BP-e, NF3e, CT-e OS, GTV-e e NFCom. Em síntese,
-              os leiautes são atualizados para incluir novos campos, regras de
-              validação e eventos de apuração assistida. (Para MDF-e e DC-e não
-              há, até o momento, campos de alíquota/valor de IBS/CBS.)
-            </p>
-            <ul>
-              <li>
-                Criação de <strong>grupo padrão de TAGs IBS/CBS</strong> para
-                todos os DF-e;
-              </li>
-              <li>
-                Novos campos e <strong>regras de validação</strong> para
-                lançamento de IBS/CBS;
-              </li>
-              <li><strong>Novos eventos</strong> para apuração assistida;</li>
-              <li>
-                Novas finalidades da NF-e: <strong>Nota de Crédito</strong> e
-                <strong>Nota de Débito</strong>;
-              </li>
-              <li>
-                Cronogramas de homologação/produção definidos em Notas Técnicas
-                (2025.002 v1.20 e 2025.001 v1.09).
-              </li>
-            </ul>
-            <p>
-              <em>Observações de cronograma:</em> Schema/Regras/Eventos em
-              homologação até 29/10/2025 e produção a partir de 10/11/2025;
-              demais regras em homologação até 24/11/2025 e produção em
-              02/02/2026 (CRT 3 — regime normal). Orientações para CRT 1, 2 e 4
-              virão em NT futura, pois a tributação ocorrerá a partir de 2027.
-            </p>
-            <h4>
-              2) NFS-e (padrão nacional): a grande transformação para serviços
-            </h4>
-            <p>
-              A <strong>Nota Técnica SE/CGNFS-e nº 004 (v1.1)</strong> introduz
-              grupos e campos opcionais no leiaute da NFS-e nacional para
-              viabilizar IBS/CBS. A documentação está na
-              <a
-                href="https://www.gov.br/nfse/pt-br/biblioteca/documentacao-tecnica"
-                rel="noopener noreferrer"
-                target="_blank"
-                >Biblioteca Técnica da NFS-e</a
-              >.
-            </p>
-            <h4>Modelo de emissão</h4>
-            <p>
-              O prestador continuará preenchendo a
-              <strong>Declaração de Prestação de Serviço (DPS)</strong>, mas a
-              validação e o cálculo dos tributos passam a ser centralizados pela
-              <strong>Sefin Nacional</strong>, que autoriza a NFS-e em XML com
-              os valores de IBS/CBS destacados. A DPS fica assinada e
-              encapsulada dentro da nota.
-            </p>
-            <h4>Fluxo de emissão (IBS/CBS)</h4>
-            <ol>
-              <li>
-                Prestador preenche e envia a <strong>DPS</strong> à Sefin
-                Nacional;
-              </li>
-              <li>
-                A Sefin Nacional valida, calcula tributos e
-                <strong>autoriza a NFS-e</strong>;
-              </li>
-              <li>
-                Gerada a NFS-e em XML com destaque de IBS/CBS, acessível às
-                partes;
-              </li>
-              <li>
-                Duas camadas de dados: os informados na DPS e os calculados pela
-                plataforma.
-              </li>
-            </ol>
-            <h4>Obrigatoriedade e opções municipais</h4>
-            <p>
-              Em <strong>janeiro de 2026</strong>, a NFS-e nacional é
-              obrigatória.
-              <strong
-                >O município de Sete Lagoas optou pelo
-                <strong>emissor gratuito</strong> da plataforma nacional.
-                <p>
-                  A não adesão à NFS-e nacional prejudica o ente municipal
-                  (suspensão de transferências voluntárias da União e perda de
-                  participação plena no IBS). Confira os materiais em
-                  <a
-                    href="https://www.gov.br/nfse/pt-br"
-                    rel="noopener noreferrer"
-                    target="_blank"
-                    >gov.br/nfse</a
-                  >.
-                </p>
-                <h4>Grupo IBSCBS na NFS-e — principais mudanças</h4>
-                <ul>
-                  <li>
-                    <strong>Finalidade</strong>: nota regular,
-                    <em>nota de crédito</em> e <em>nota de débito</em>;
-                  </li>
-                  <li>
-                    <strong>cIndOp</strong>: código de operação padronizado
-                    (Anexo VII, baseado no art. 11 da LC 214/2025);
-                  </li>
-                  <li>
-                    <strong>Destinatário</strong>: identificação completa
-                    (inclui NIF estrangeiro);
-                  </li>
-                  <li>
-                    <strong>Imóveis</strong>: inscrição imobiliária, CIB e
-                    endereço detalhado;
-                  </li>
-                  <li>
-                    <strong>Reembolsos/repasses</strong>: padronização do que
-                    não compõe base de cálculo;
-                  </li>
-                  <li>
-                    <strong>Tributação</strong>: crédito, alíquotas por ente,
-                    base de cálculo e valores.
-                  </li>
-                </ul>
-                <h4>Anexos técnicos essenciais</h4>
-                <ul>
-                  <li>
-                    <strong>Anexo VI — Leiautes RTC IBS/CBS</strong> (grupos
-                    IBSCBS da DPS/NFS-e);
-                  </li>
-                  <li>
-                    <strong>Anexo VII — IndOp IBS/CBS</strong> (códigos de
-                    operação, art. 11 da LC 214/2025);
-                  </li>
-                  <li>
-                    <strong>Anexo VIII — Correlação</strong> (LC 116/2003 × NBS
-                    × cIndOp × cClassTrib).<br />
-                    Documentos disponíveis na
-                    <a
-                      href="https://www.gov.br/nfse/pt-br/biblioteca/documentacao-tecnica"
-                      rel="noopener noreferrer"
-                      target="_blank"
-                      >biblioteca da NFS-e</a
-                    >.
-                  </li>
-                </ul>
-                <h4>Compartilhamento com todos os entes</h4>
-                <p>
-                  O <strong>Ambiente de Dados Nacional (ADN)</strong> funciona
-                  como repositório central de NFS-e, garantindo o
-                  compartilhamento entre entes federativos no momento da
-                  autorização/recepção, com padrões técnicos uniformes
-                  (gov.br/nfse).
-                </p>
-                <h4>3) Criação de novos documentos fiscais</h4>
-                <p>
-                  Com a implementação do IBS/CBS, poderão surgir novos
-                  documentos/registro eletrônicos, como
-                  <strong>Eventos</strong> e <strong>Declarações</strong> (ex.:
-                  <strong>DERE</strong> — Declaração Eletrônica para Regimes
-                  Específicos) para setores como instituições financeiras,
-                  imobiliário, planos de saúde e jogos/apostas.
-                </p>
-                <h4>Nota de Crédito e Nota de Débito</h4>
-                <p>
-                  Finalidades específicas para ajuste da apuração de IBS/CBS:
-                  <strong>nota de débito</strong> (aumenta débito — ex.: multa e
-                  juros) e <strong>nota de crédito</strong> (reduz débito).
-                  Exemplo: atraso de pagamento gera multa e juros (composição de
-                  base), ajustado por NF-e com finalidade de débito.
-                </p>
-                <h4>4) Substituição do Cupom Fiscal pelo NFC-e</h4>
-                <p>
-                  A partir de 01/01/2026, a emissão de
-                  <strong>CF-e</strong> deixa de ser permitida; o varejo deve
-                  emitir <strong>NFC-e</strong> (modelo 65). Verifique atos
-                  estaduais e os ajustes SINIEF aplicáveis em
-                  <a
-                    href="https://www.gov.br/confaz/pt-br"
-                    rel="noopener noreferrer"
-                    target="_blank"
-                    >gov.br/confaz</a
-                  >.
-                </p>
-                <h4>5) Vedação de NFC-e em vendas para CNPJ</h4>
-                <p>
-                  O
-                  <a
-                    href="https://www.gov.br/confaz/pt-br/assuntos/atos/ajustes/2025/ajuste-sinief-11-2025"
-                    rel="noopener noreferrer"
-                    target="_blank"
-                    >Ajuste SINIEF nº 11/2025</a
-                  >
-                  veda a NFC-e quando o destinatário precisar ser identificado
-                  por CNPJ (produção de efeitos originalmente prevista para
-                  03/11/2025, com discussão sobre postergação).
-                </p>
-                <h4>Atenção — prazos e conformidade</h4>
-                <ul>
-                  <li>
-                    Desde jan/2026, passam a valer novas regras de validação de
-                    IBS/CBS para NFS-e; em homologação, campos opcionais até
-                    out/2025;
-                  </li>
-                  <li>
-                    Preenchimento correto de IBS, CBS e IS torna-se
-                    <strong>obrigatório</strong> a partir de
-                    <strong>05/01/2026</strong>;
-                  </li>
-                  <li>
-                    Não adaptação pode gerar rejeição automática e multas
-                    municipais;
-                  </li>
-                  <li>
-                    Regulamentação segue em evolução — acompanhe as atualizações
-                    em
-                    <a
-                      href="https://www.gov.br/nfse/pt-br/biblioteca/documentacao-tecnica"
-                      rel="noopener noreferrer"
-                      target="_blank"
-                      >gov.br/nfse</a
-                    >
-                    e
-                    <a
-                      href="https://www.gov.br/confaz/pt-br"
-                      rel="noopener noreferrer"
-                      target="_blank"
-                      >gov.br/confaz</a
-                    >.
-                  </li>
-                </ul>
-                <p
-                  style="
+        <div class="news-date">28 de Outubro de 2025 — 19:00</div>
+      </div>
+      <div aria-hidden="true" class="news-content">
+        <div class="news-content-inner">
+          <p>
+            Uma novidade importante da reforma é o sistema de cashback de
+            impostos para famílias de baixa renda. Isso significa que parte do
+            imposto pago em compras de produtos essenciais poderá ser
+            devolvida para essas pessoas. Esse recurso volta para amenizar a
+            carga tributária sobre os mais vulneráveis, permitindo que eles
+            recuperem uma parte do valor pago em tributos.
+          </p>
+          <p>
+            Esse mecanismo será regulamentado por uma lei complementar e, em
+            produtos como gás de cozinha e contas de água e luz, haverá um
+            percentual mínimo de devolução garantido para os consumidores de
+            menor renda.
+          </p>
+          <p>
+            Em termos práticos, o funcionamento do cashback será simples para
+            o consumidor. O valor do imposto devolvido será destacado para que
+            as famílias saibam quanto estão recuperando de seus gastos com
+            tributos. Dessa forma, o governo garante que o benefício do
+            cashback seja claro e direto.
+          </p>
+          <p>
+            Essa medida também ajuda a combater a regressividade do sistema,
+            que é quando os tributos pesam mais para quem tem menos. Com o
+            cashback, a reforma não só busca tornar os impostos mais justos,
+            mas também oferece um alívio prático para o dia a dia das famílias
+            de menor renda.
+          </p>
+        </div>
+      </div>
+    </div>
+    <!-- FIM: NOTÍCIA (Cashback) -->
+    <!-- NOTÍCIA 1-->
+    <div class="news-item has-ticket" data-kind="news">
+      <span class="ticket ticket--news">Artigo</span>
+      <div class="news-header">
+        <h3>As mudanças dos Documentos Fiscais Eletrônicos (DF-e)</h3>
+        <div class="news-icon">
+          <i aria-hidden="true" class="fas fa-chevron-down"></i>
+        </div>
+        <div class="news-date">
+          Publicado em 28 de outubro de 2025 — 15:00
+        </div>
+      </div>
+      <div aria-hidden="true" class="news-content" id="dfe-noticia">
+        <div class="news-content-inner">
+          <p>
+            Com a reforma tributária do consumo, os documentos fiscais
+            eletrônicos passam a se adequar aos novos tributos — Imposto sobre
+            Bens e Serviços (IBS), Contribuição Social sobre Bens e Serviços
+            (CBS) e Imposto Seletivo (IS). Para prestadores de serviços, a
+            principal mudança é a
+            <strong>Nota Fiscal de Serviço Eletrônica (NFS-e) em padrão nacional
+              obrigatório a partir de janeiro de 2026</strong>. Consulte também a
+            <a href="https://www.planalto.gov.br/ccivil_03/constituicao/emendas/emc/emc132.htm"
+              rel="noopener noreferrer" target="_blank">Emenda Constitucional 132/2023</a>
+            e a
+            <a href="https://www.gov.br/nfse/pt-br/biblioteca/documentacao-tecnica" rel="noopener noreferrer"
+              target="_blank">biblioteca técnica da NFS-e (gov.br)</a>.
+          </p>
+          <h4>Obrigatoriedade e caráter declaratório</h4>
+          <p>
+            De acordo com o art. 60 da
+            <strong>Lei Complementar nº 214/2025</strong>, o sujeito passivo
+            do IBS e da CBS, ao realizar operações com bens ou serviços,
+            <strong>deve emitir documento fiscal eletrônico</strong>. As
+            informações prestadas possuem caráter declaratório e
+            <strong>constituem confissão do valor devido</strong> de IBS e CBS
+            consignados no documento fiscal.
+          </p>
+          <p>
+            A emissão é obrigatória mesmo em operações imunes, isentas, com
+            alíquota zero, suspensas, ou em transferências de bens entre
+            estabelecimentos do mesmo contribuinte; a inexistência da
+            obrigação principal não dispensa a obrigação acessória (art. 60,
+            §2º). Essa confissão viabiliza procedimentos como o
+            <em>split payment</em> na liquidação financeira. A forma, conteúdo
+            e prazos observarão ato conjunto do Comitê Gestor do IBS e da
+            Receita Federal do Brasil (RFB). Os DF-e deverão ser
+            compartilhados com todos os entes no momento da
+            autorização/recepção, utilizando padrões técnicos uniformes.
+          </p>
+          <h4>1) Adaptações nos atuais DF-e</h4>
+          <p>
+            O
+            <a href="https://www.gov.br/confaz/pt-br/assuntos/atos/ajustes/2024/ajuste-sinief-24-2024"
+              rel="noopener noreferrer" target="_blank">Ajuste SINIEF nº 24/2024</a>
+            padroniza campos para registro de IBS, CBS e IS em documentos como
+            NF-e, CT-e, NFC-e, BP-e, NF3e, CT-e OS, GTV-e e NFCom. Em síntese,
+            os leiautes são atualizados para incluir novos campos, regras de
+            validação e eventos de apuração assistida. (Para MDF-e e DC-e não
+            há, até o momento, campos de alíquota/valor de IBS/CBS.)
+          </p>
+          <ul>
+            <li>
+              Criação de <strong>grupo padrão de TAGs IBS/CBS</strong> para
+              todos os DF-e;
+            </li>
+            <li>
+              Novos campos e <strong>regras de validação</strong> para
+              lançamento de IBS/CBS;
+            </li>
+            <li><strong>Novos eventos</strong> para apuração assistida;</li>
+            <li>
+              Novas finalidades da NF-e: <strong>Nota de Crédito</strong> e
+              <strong>Nota de Débito</strong>;
+            </li>
+            <li>
+              Cronogramas de homologação/produção definidos em Notas Técnicas
+              (2025.002 v1.20 e 2025.001 v1.09).
+            </li>
+          </ul>
+          <p>
+            <em>Observações de cronograma:</em> Schema/Regras/Eventos em
+            homologação até 29/10/2025 e produção a partir de 10/11/2025;
+            demais regras em homologação até 24/11/2025 e produção em
+            02/02/2026 (CRT 3 — regime normal). Orientações para CRT 1, 2 e 4
+            virão em NT futura, pois a tributação ocorrerá a partir de 2027.
+          </p>
+          <h4>
+            2) NFS-e (padrão nacional): a grande transformação para serviços
+          </h4>
+          <p>
+            A <strong>Nota Técnica SE/CGNFS-e nº 004 (v1.1)</strong> introduz
+            grupos e campos opcionais no leiaute da NFS-e nacional para
+            viabilizar IBS/CBS. A documentação está na
+            <a href="https://www.gov.br/nfse/pt-br/biblioteca/documentacao-tecnica" rel="noopener noreferrer"
+              target="_blank">Biblioteca Técnica da NFS-e</a>.
+          </p>
+          <h4>Modelo de emissão</h4>
+          <p>
+            O prestador continuará preenchendo a
+            <strong>Declaração de Prestação de Serviço (DPS)</strong>, mas a
+            validação e o cálculo dos tributos passam a ser centralizados pela
+            <strong>Sefin Nacional</strong>, que autoriza a NFS-e em XML com
+            os valores de IBS/CBS destacados. A DPS fica assinada e
+            encapsulada dentro da nota.
+          </p>
+          <h4>Fluxo de emissão (IBS/CBS)</h4>
+          <ol>
+            <li>
+              Prestador preenche e envia a <strong>DPS</strong> à Sefin
+              Nacional;
+            </li>
+            <li>
+              A Sefin Nacional valida, calcula tributos e
+              <strong>autoriza a NFS-e</strong>;
+            </li>
+            <li>
+              Gerada a NFS-e em XML com destaque de IBS/CBS, acessível às
+              partes;
+            </li>
+            <li>
+              Duas camadas de dados: os informados na DPS e os calculados pela
+              plataforma.
+            </li>
+          </ol>
+          <h4>Obrigatoriedade e opções municipais</h4>
+          <p>
+            Em <strong>janeiro de 2026</strong>, a NFS-e nacional é
+            obrigatória.
+            <strong>O município de Sete Lagoas optou pelo
+              <strong>emissor gratuito</strong> da plataforma nacional.
+              <p>
+                A não adesão à NFS-e nacional prejudica o ente municipal
+                (suspensão de transferências voluntárias da União e perda de
+                participação plena no IBS). Confira os materiais em
+                <a href="https://www.gov.br/nfse/pt-br" rel="noopener noreferrer" target="_blank">gov.br/nfse</a>.
+              </p>
+              <h4>Grupo IBSCBS na NFS-e — principais mudanças</h4>
+              <ul>
+                <li>
+                  <strong>Finalidade</strong>: nota regular,
+                  <em>nota de crédito</em> e <em>nota de débito</em>;
+                </li>
+                <li>
+                  <strong>cIndOp</strong>: código de operação padronizado
+                  (Anexo VII, baseado no art. 11 da LC 214/2025);
+                </li>
+                <li>
+                  <strong>Destinatário</strong>: identificação completa
+                  (inclui NIF estrangeiro);
+                </li>
+                <li>
+                  <strong>Imóveis</strong>: inscrição imobiliária, CIB e
+                  endereço detalhado;
+                </li>
+                <li>
+                  <strong>Reembolsos/repasses</strong>: padronização do que
+                  não compõe base de cálculo;
+                </li>
+                <li>
+                  <strong>Tributação</strong>: crédito, alíquotas por ente,
+                  base de cálculo e valores.
+                </li>
+              </ul>
+              <h4>Anexos técnicos essenciais</h4>
+              <ul>
+                <li>
+                  <strong>Anexo VI — Leiautes RTC IBS/CBS</strong> (grupos
+                  IBSCBS da DPS/NFS-e);
+                </li>
+                <li>
+                  <strong>Anexo VII — IndOp IBS/CBS</strong> (códigos de
+                  operação, art. 11 da LC 214/2025);
+                </li>
+                <li>
+                  <strong>Anexo VIII — Correlação</strong> (LC 116/2003 × NBS
+                  × cIndOp × cClassTrib).<br />
+                  Documentos disponíveis na
+                  <a href="https://www.gov.br/nfse/pt-br/biblioteca/documentacao-tecnica" rel="noopener noreferrer"
+                    target="_blank">biblioteca da NFS-e</a>.
+                </li>
+              </ul>
+              <h4>Compartilhamento com todos os entes</h4>
+              <p>
+                O <strong>Ambiente de Dados Nacional (ADN)</strong> funciona
+                como repositório central de NFS-e, garantindo o
+                compartilhamento entre entes federativos no momento da
+                autorização/recepção, com padrões técnicos uniformes
+                (gov.br/nfse).
+              </p>
+              <h4>3) Criação de novos documentos fiscais</h4>
+              <p>
+                Com a implementação do IBS/CBS, poderão surgir novos
+                documentos/registro eletrônicos, como
+                <strong>Eventos</strong> e <strong>Declarações</strong> (ex.:
+                <strong>DERE</strong> — Declaração Eletrônica para Regimes
+                Específicos) para setores como instituições financeiras,
+                imobiliário, planos de saúde e jogos/apostas.
+              </p>
+              <h4>Nota de Crédito e Nota de Débito</h4>
+              <p>
+                Finalidades específicas para ajuste da apuração de IBS/CBS:
+                <strong>nota de débito</strong> (aumenta débito — ex.: multa e
+                juros) e <strong>nota de crédito</strong> (reduz débito).
+                Exemplo: atraso de pagamento gera multa e juros (composição de
+                base), ajustado por NF-e com finalidade de débito.
+              </p>
+              <h4>4) Substituição do Cupom Fiscal pelo NFC-e</h4>
+              <p>
+                A partir de 01/01/2026, a emissão de
+                <strong>CF-e</strong> deixa de ser permitida; o varejo deve
+                emitir <strong>NFC-e</strong> (modelo 65). Verifique atos
+                estaduais e os ajustes SINIEF aplicáveis em
+                <a href="https://www.gov.br/confaz/pt-br" rel="noopener noreferrer" target="_blank">gov.br/confaz</a>.
+              </p>
+              <h4>5) Vedação de NFC-e em vendas para CNPJ</h4>
+              <p>
+                O
+                <a href="https://www.gov.br/confaz/pt-br/assuntos/atos/ajustes/2025/ajuste-sinief-11-2025"
+                  rel="noopener noreferrer" target="_blank">Ajuste SINIEF nº 11/2025</a>
+                veda a NFC-e quando o destinatário precisar ser identificado
+                por CNPJ (produção de efeitos originalmente prevista para
+                03/11/2025, com discussão sobre postergação).
+              </p>
+              <h4>Atenção — prazos e conformidade</h4>
+              <ul>
+                <li>
+                  Desde jan/2026, passam a valer novas regras de validação de
+                  IBS/CBS para NFS-e; em homologação, campos opcionais até
+                  out/2025;
+                </li>
+                <li>
+                  Preenchimento correto de IBS, CBS e IS torna-se
+                  <strong>obrigatório</strong> a partir de
+                  <strong>05/01/2026</strong>;
+                </li>
+                <li>
+                  Não adaptação pode gerar rejeição automática e multas
+                  municipais;
+                </li>
+                <li>
+                  Regulamentação segue em evolução — acompanhe as atualizações
+                  em
+                  <a href="https://www.gov.br/nfse/pt-br/biblioteca/documentacao-tecnica" rel="noopener noreferrer"
+                    target="_blank">gov.br/nfse</a>
+                  e
+                  <a href="https://www.gov.br/confaz/pt-br" rel="noopener noreferrer" target="_blank">gov.br/confaz</a>.
+                </li>
+              </ul>
+              <p style="
                     text-align: right;
                     font-style: italic;
                     margin-top: 20px;
-                  "
-                >
-                  Fonte SEFAZ-CE<br />
-                </p>
-              </strong>
-            </p>
-          </div>
+                  ">
+                Fonte SEFAZ-CE<br />
+              </p>
+            </strong>
+          </p>
         </div>
       </div>
-      <!-- </main> -->
-      <!--NOTÍCIA 2-->
-      <div class="news-item has-ticket" data-kind="news">
-        <span class="ticket ticket--news">Notícia</span>
-        <div class="news-header">
-          <h3>Participação no Comitê Gestor do IBS</h3>
-          <div aria-hidden="true" class="news-icon">
-            <i class="fas fa-chevron-down"></i>
-          </div>
-          <div class="news-date">
-            Publicado em 28 de outubro de 2025 — 17:30
-          </div>
+    </div>
+    <!-- </main> -->
+    <!--NOTÍCIA 2-->
+    <div class="news-item has-ticket" data-kind="news">
+      <span class="ticket ticket--news">Notícia</span>
+      <div class="news-header">
+        <h3>Participação no Comitê Gestor do IBS</h3>
+        <div aria-hidden="true" class="news-icon">
+          <i class="fas fa-chevron-down"></i>
         </div>
-        <div aria-hidden="true" class="news-content">
-          <div class="news-content-inner">
-            <p>
-              O Comitê Gestor do Imposto sobre Bens e Serviços (IBS), inscrito
-              no
-              <strong>CNPJ nº 62.326.348/0001-20</strong>, exercerá papel
-              central na administração do novo tributo, atuando como órgão
-              técnico-administrativo com autonomia para uniformizar regras,
-              gerir a arrecadação e distribuir os recursos de forma transparente
-              entre os entes federativos.
-            </p>
-            <p>
-              A composição assegura equilíbrio entre Estados, Municípios e o
-              Distrito Federal, garantindo decisões colegiadas e
-              representativas.
-            </p>
-            <h4>Representação dos Municípios</h4>
-            <ul>
-              <li><strong>27 representantes</strong> ao todo;</li>
-              <li>
-                <strong>14 membros</strong> eleitos com base em votos iguais
-                para todos os municípios;
-              </li>
-              <li>
-                <strong>13 membros</strong> eleitos com ponderação pela
-                população de cada município.
-              </li>
-            </ul>
-            <h4>Representação dos Estados e do Distrito Federal</h4>
-            <p>
-              Os Estados e o Distrito Federal contam com
-              <strong>27 representantes</strong>, formados pelos(as)
-              Secretários(as) de Fazenda, Finanças, Tributação ou equivalentes,
-              <a
-                href="https://pesquisa.in.gov.br/imprensa/jsp/visualiza/index.jsp?jornal=530&amp;pagina=208&amp;data=15/04/2025"
-                rel="noopener noreferrer"
-                target="_blank"
-              >
-                indicados pelos Chefes do Poder Executivo </a
-              >.
-            </p>
-            <h4>Governança cooperativa</h4>
-            <p>
-              Há <strong>alternância na presidência</strong> entre
-              representantes dos Estados e dos Municípios, o que reforça a
-              igualdade na liderança e evita a predominância de um único grupo.
-              O modelo privilegia coordenação federativa e padronização
-              nacional.
-            </p>
-            <h4>Benefícios para a gestão fiscal</h4>
-            <ul>
-              <li><strong>Uniformidade</strong> de normas e processos;</li>
-              <li><strong>Redução de disputas</strong> entre entes;</li>
-              <li>
-                <strong>Transparência</strong> nos critérios de redistribuição;
-              </li>
-              <li>
-                <strong>Eficiência</strong> na arrecadação e no acompanhamento
-                do IBS.
-              </li>
-            </ul>
-            <p>
-              A centralização administrativa no Comitê Gestor traz maior
-              segurança jurídica e eficiência na gestão compartilhada do
-              tributo, em conformidade com a Reforma Tributária do Consumo.
-            </p>
-          </div>
+        <div class="news-date">
+          Publicado em 28 de outubro de 2025 — 17:30
         </div>
       </div>
-      <!-- fim: NOTÍCIA -->
-    </main>
-    <!-- ADICIONE A LINHA DE FECHAMENTO </main> AQUI (antes do rodapé) -->
-    <!-- RODAPÉ -->
-    <footer class="footer">
-      <div class="footer-container">
-        <p>
-          <strong>Endereço:</strong> Praça Barão do Rio Branco, 16 — Centro,
-          Sete Lagoas/MG • CEP 35700-029  •  <strong>Telefone:</strong> (31)
-          93301-0753  •  <strong>Órgão:</strong> Secretaria Municipal da Fazenda
-        </p>
+      <div aria-hidden="true" class="news-content">
+        <div class="news-content-inner">
+          <p>
+            O Comitê Gestor do Imposto sobre Bens e Serviços (IBS), inscrito
+            no
+            <strong>CNPJ nº 62.326.348/0001-20</strong>, exercerá papel
+            central na administração do novo tributo, atuando como órgão
+            técnico-administrativo com autonomia para uniformizar regras,
+            gerir a arrecadação e distribuir os recursos de forma transparente
+            entre os entes federativos.
+          </p>
+          <p>
+            A composição assegura equilíbrio entre Estados, Municípios e o
+            Distrito Federal, garantindo decisões colegiadas e
+            representativas.
+          </p>
+          <h4>Representação dos Municípios</h4>
+          <ul>
+            <li><strong>27 representantes</strong> ao todo;</li>
+            <li>
+              <strong>14 membros</strong> eleitos com base em votos iguais
+              para todos os municípios;
+            </li>
+            <li>
+              <strong>13 membros</strong> eleitos com ponderação pela
+              população de cada município.
+            </li>
+          </ul>
+          <h4>Representação dos Estados e do Distrito Federal</h4>
+          <p>
+            Os Estados e o Distrito Federal contam com
+            <strong>27 representantes</strong>, formados pelos(as)
+            Secretários(as) de Fazenda, Finanças, Tributação ou equivalentes,
+            <a href="https://pesquisa.in.gov.br/imprensa/jsp/visualiza/index.jsp?jornal=530&amp;pagina=208&amp;data=15/04/2025"
+              rel="noopener noreferrer" target="_blank">
+              indicados pelos Chefes do Poder Executivo </a>.
+          </p>
+          <h4>Governança cooperativa</h4>
+          <p>
+            Há <strong>alternância na presidência</strong> entre
+            representantes dos Estados e dos Municípios, o que reforça a
+            igualdade na liderança e evita a predominância de um único grupo.
+            O modelo privilegia coordenação federativa e padronização
+            nacional.
+          </p>
+          <h4>Benefícios para a gestão fiscal</h4>
+          <ul>
+            <li><strong>Uniformidade</strong> de normas e processos;</li>
+            <li><strong>Redução de disputas</strong> entre entes;</li>
+            <li>
+              <strong>Transparência</strong> nos critérios de redistribuição;
+            </li>
+            <li>
+              <strong>Eficiência</strong> na arrecadação e no acompanhamento
+              do IBS.
+            </li>
+          </ul>
+          <p>
+            A centralização administrativa no Comitê Gestor traz maior
+            segurança jurídica e eficiência na gestão compartilhada do
+            tributo, em conformidade com a Reforma Tributária do Consumo.
+          </p>
+        </div>
       </div>
-      <div class="footer-bottom">
-        © 2025 Prefeitura de Sete Lagoas — Todos os direitos reservados.
-      </div>
-    </footer>
-    <!-- Script Acordeão (height + wrapper + auto) -->
+    </div>
+    <!-- fim: NOTÍCIA -->
+  </main>
+  <!-- ADICIONE A LINHA DE FECHAMENTO </main> AQUI (antes do rodapé) -->
+  <!-- RODAPÉ -->
+  <footer class="footer">
+    <div class="footer-container">
+      <p>
+        <strong>Endereço:</strong> Praça Barão do Rio Branco, 16 — Centro,
+        Sete Lagoas/MG • CEP 35700-029  •  <strong>Telefone:</strong> (31)
+        93301-0753  •  <strong>Órgão:</strong> Secretaria Municipal da Fazenda
+      </p>
+    </div>
+    <div class="footer-bottom">
+      © 2025 Prefeitura de Sete Lagoas — Todos os direitos reservados.
+    </div>
+  </footer>
+  <!-- Script Acordeão (height + wrapper + auto) -->
 
-    <script src="assets/js/script.js"></script>
-  </body>
+  <script src="assets/js/script.js"></script>
+</body>
+
 </html>
